@@ -3,6 +3,9 @@ name: Sync Google Sheets
 on:
   workflow_dispatch:   # manual trigger only
 
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
