@@ -1,1 +1,730 @@
-[]
+[
+  {
+    "Municipality (n=104)": "Calgary",
+    "Province": "Alberta",
+    "Latitude": 51.0447330999999,
+    "Longitude": -114.0718831,
+    "CAP filename": "Alberta_Calgary"
+  },
+  {
+    "Municipality (n=104)": "Canmore",
+    "Province": "Alberta",
+    "Latitude": 51.0883666,
+    "Longitude": -115.3479101,
+    "CAP filename": "Alberta_Canmore"
+  },
+  {
+    "Municipality (n=104)": "City of Leduc",
+    "Province": "Alberta",
+    "Latitude": 53.2647566,
+    "Longitude": -113.5525216,
+    "CAP filename": "Alberta_City of Leduc"
+  },
+  {
+    "Municipality (n=104)": "Edmonton",
+    "Province": "Alberta",
+    "Latitude": 53.5461663,
+    "Longitude": -113.4937355,
+    "CAP filename": "Alberta_Edmonton"
+  },
+  {
+    "Municipality (n=104)": "Okotoks",
+    "Province": "Alberta",
+    "Latitude": 50.7255163,
+    "Longitude": -113.9749127,
+    "CAP filename": "Alberta_Okotoks"
+  },
+  {
+    "Municipality (n=104)": "Spruce Grove",
+    "Province": "Alberta",
+    "Latitude": 53.5412414,
+    "Longitude": -113.9100733,
+    "CAP filename": "Alberta_Spruce Grove"
+  },
+  {
+    "Municipality (n=104)": "City of Prince George",
+    "Province": "British Columbia",
+    "Latitude": 53.9128548,
+    "Longitude": -122.7452951,
+    "CAP filename": "British Columbia_City of Prince George"
+  },
+  {
+    "Municipality (n=104)": "City of Richmond",
+    "Province": "British Columbia",
+    "Latitude": 49.1665898,
+    "Longitude": -123.133569,
+    "CAP filename": "British Columbia_City of Richmond"
+  },
+  {
+    "Municipality (n=104)": "Comox Valley",
+    "Province": "British Columbia",
+    "Latitude": 49.7064187999999,
+    "Longitude": -125.021945,
+    "CAP filename": "British Columbia_Comox Valley"
+  },
+  {
+    "Municipality (n=104)": "Coquitlam",
+    "Province": "British Columbia",
+    "Latitude": 49.2837626,
+    "Longitude": -122.7932065,
+    "CAP filename": "British Columbia_Coquitlam"
+  },
+  {
+    "Municipality (n=104)": "Corporation of the City of Cranbrook",
+    "Province": "British Columbia",
+    "Latitude": 49.5129678,
+    "Longitude": -115.7694002,
+    "CAP filename": "British Columbia_Corporation of the City of Cranbrook"
+  },
+  {
+    "Municipality (n=104)": "Delta",
+    "Province": "British Columbia",
+    "Latitude": 49.0952154999999,
+    "Longitude": -123.0264759,
+    "CAP filename": "British Columbia_Delta"
+  },
+  {
+    "Municipality (n=104)": "District of North Vancouver",
+    "Province": "British Columbia",
+    "Latitude": 49.3371057,
+    "Longitude": -123.038208,
+    "CAP filename": "British Columbia_District of North Vancouver"
+  },
+  {
+    "Municipality (n=104)": "District of Saanich",
+    "Province": "British Columbia",
+    "Latitude": 48.4527784,
+    "Longitude": -123.3754551,
+    "CAP filename": "British Columbia_District of Saanich"
+  },
+  {
+    "Municipality (n=104)": "District of Sooke",
+    "Province": "British Columbia",
+    "Latitude": 48.3773004,
+    "Longitude": -123.7236293,
+    "CAP filename": "British Columbia_District of Sooke"
+  },
+  {
+    "Municipality (n=104)": "Esquimalt",
+    "Province": "British Columbia",
+    "Latitude": 48.435842,
+    "Longitude": -123.411234,
+    "CAP filename": "British Columbia_Esquimalt"
+  },
+  {
+    "Municipality (n=104)": "Kamloops",
+    "Province": "British Columbia",
+    "Latitude": 50.674522,
+    "Longitude": -120.3272674,
+    "CAP filename": "British Columbia_Kamloops"
+  },
+  {
+    "Municipality (n=104)": "Kelowna",
+    "Province": "British Columbia",
+    "Latitude": 49.8863235,
+    "Longitude": -119.4965917,
+    "CAP filename": "British Columbia_Kelowna"
+  },
+  {
+    "Municipality (n=104)": "Metro Vancouver",
+    "Province": "British Columbia",
+    "Latitude": 49.3224696,
+    "Longitude": -122.8568391,
+    "CAP filename": "British Columbia_Metro Vancouver"
+  },
+  {
+    "Municipality (n=104)": "Nanaimo",
+    "Province": "British Columbia",
+    "Latitude": 49.1658836,
+    "Longitude": -123.9400647,
+    "CAP filename": "British Columbia_Nanaimo"
+  },
+  {
+    "Municipality (n=104)": "Nelson",
+    "Province": "British Columbia",
+    "Latitude": 49.4928119,
+    "Longitude": -117.2948343,
+    "CAP filename": "British Columbia_Nelson"
+  },
+  {
+    "Municipality (n=104)": "New Westminster",
+    "Province": "British Columbia",
+    "Latitude": 49.2057179,
+    "Longitude": -122.910956,
+    "CAP filename": "British Columbia_New Westminster"
+  },
+  {
+    "Municipality (n=104)": "Port Moody",
+    "Province": "British Columbia",
+    "Latitude": 49.2849107,
+    "Longitude": -122.8677562,
+    "CAP filename": "British Columbia_Port Moody"
+  },
+  {
+    "Municipality (n=104)": "Sidney",
+    "Province": "British Columbia",
+    "Latitude": 48.6502411,
+    "Longitude": -123.399005,
+    "CAP filename": "British Columbia_Sidney"
+  },
+  {
+    "Municipality (n=104)": "Squamish",
+    "Province": "British Columbia",
+    "Latitude": 49.7016339,
+    "Longitude": -123.1558121,
+    "CAP filename": "British Columbia_Squamish"
+  },
+  {
+    "Municipality (n=104)": "Summerland",
+    "Province": "British Columbia",
+    "Latitude": 49.603236,
+    "Longitude": -119.6834179,
+    "CAP filename": "British Columbia_Summerland"
+  },
+  {
+    "Municipality (n=104)": "Sunshine Coast Regional District",
+    "Province": "British Columbia",
+    "Latitude": 49.7604377,
+    "Longitude": -123.7643986,
+    "CAP filename": "British Columbia_Sunshine Coast Regional District"
+  },
+  {
+    "Municipality (n=104)": "Surrey",
+    "Province": "British Columbia",
+    "Latitude": 49.1913466,
+    "Longitude": -122.8490125,
+    "CAP filename": "British Columbia_Surrey"
+  },
+  {
+    "Municipality (n=104)": "Township of Langley",
+    "Province": "British Columbia",
+    "Latitude": 49.0743297,
+    "Longitude": -122.5593213,
+    "CAP filename": "British Columbia_Township of Langley"
+  },
+  {
+    "Municipality (n=104)": "Vancouver",
+    "Province": "British Columbia",
+    "Latitude": 49.2827291,
+    "Longitude": -123.1207375,
+    "CAP filename": "British Columbia_Vancouver"
+  },
+  {
+    "Municipality (n=104)": "Vernon",
+    "Province": "British Columbia",
+    "Latitude": 50.2670137,
+    "Longitude": -119.2720107,
+    "CAP filename": "British Columbia_Vernon"
+  },
+  {
+    "Municipality (n=104)": "Victoria",
+    "Province": "British Columbia",
+    "Latitude": 48.4284207,
+    "Longitude": -123.3656444,
+    "CAP filename": "British Columbia_Victoria"
+  },
+  {
+    "Municipality (n=104)": "Whistler",
+    "Province": "British Columbia",
+    "Latitude": 50.1161685999999,
+    "Longitude": -122.9535117,
+    "CAP filename": "British Columbia_Whistler"
+  },
+  {
+    "Municipality (n=104)": "Brandon",
+    "Province": "Manitoba",
+    "Latitude": 49.8437486,
+    "Longitude": -99.9514806999999,
+    "CAP filename": "Manitoba_Brandon"
+  },
+  {
+    "Municipality (n=104)": "Winnipeg",
+    "Province": "Manitoba",
+    "Latitude": 49.8954221,
+    "Longitude": -97.1385145,
+    "CAP filename": "Manitoba_Winnipeg"
+  },
+  {
+    "Municipality (n=104)": "Fredericton",
+    "Province": "New Brunswick",
+    "Latitude": 45.9635895,
+    "Longitude": -66.6431151,
+    "CAP filename": "New Brunswick_Fredericton"
+  },
+  {
+    "Municipality (n=104)": "Quispamsis",
+    "Province": "New Brunswick",
+    "Latitude": 45.4321713,
+    "Longitude": -65.9462583,
+    "CAP filename": "New Brunswick_Quispamsis"
+  },
+  {
+    "Municipality (n=104)": "Saint John",
+    "Province": "New Brunswick",
+    "Latitude": 45.2733153,
+    "Longitude": -66.0633081,
+    "CAP filename": "New Brunswick_Saint John"
+  },
+  {
+    "Municipality (n=104)": "Corner Brook",
+    "Province": "Newfoundland and Labrador",
+    "Latitude": 48.9523316,
+    "Longitude": -57.9460401,
+    "CAP filename": "Newfoundland and Labrador_Corner Brook"
+  },
+  {
+    "Municipality (n=104)": "St. John's",
+    "Province": "Newfoundland and Labrador",
+    "Latitude": 47.5556097,
+    "Longitude": -52.7452511,
+    "CAP filename": "Newfoundland and Labrador_St. John's"
+  },
+  {
+    "Municipality (n=104)": "Town of Paradise",
+    "Province": "Newfoundland and Labrador",
+    "Latitude": 47.5235239,
+    "Longitude": -52.8693287,
+    "CAP filename": "Newfoundland and Labrador_Town of Paradise"
+  },
+  {
+    "Municipality (n=104)": "Yellowknife",
+    "Province": "Northwest Territories",
+    "Latitude": 62.4539717,
+    "Longitude": -114.3717886,
+    "CAP filename": "Northwest Territories_Yellowknife"
+  },
+  {
+    "Municipality (n=104)": "City of West Hants",
+    "Province": "Nova Scotia",
+    "Latitude": 44.9403847,
+    "Longitude": -64.1252332999999,
+    "CAP filename": "Nova Scotia_City of West Hants"
+  },
+  {
+    "Municipality (n=104)": "Halifax",
+    "Province": "Nova Scotia",
+    "Latitude": 44.8857087,
+    "Longitude": -63.1005273,
+    "CAP filename": "Nova Scotia_Halifax"
+  },
+  {
+    "Municipality (n=104)": "Municipality of Colchester",
+    "Province": "Nova Scotia",
+    "Latitude": 45.3656008,
+    "Longitude": -63.2756041,
+    "CAP filename": "Nova Scotia_Municipality of Colchester"
+  },
+  {
+    "Municipality (n=104)": "Municipality of the District of Lunenburg",
+    "Province": "Nova Scotia",
+    "Latitude": 44.4261574,
+    "Longitude": -64.6186263,
+    "CAP filename": "Nova Scotia_Municipality of the District of Lunenburg"
+  },
+  {
+    "Municipality (n=104)": "Aurora",
+    "Province": "Ontario",
+    "Latitude": 44.00648,
+    "Longitude": -79.450396,
+    "CAP filename": "Ontario_Aurora"
+  },
+  {
+    "Municipality (n=104)": "Brampton",
+    "Province": "Ontario",
+    "Latitude": 43.7315479,
+    "Longitude": -79.7624177,
+    "CAP filename": "Ontario_Brampton"
+  },
+  {
+    "Municipality (n=104)": "Burlington",
+    "Province": "Ontario",
+    "Latitude": 43.3255196,
+    "Longitude": -79.7990319,
+    "CAP filename": "Ontario_Burlington"
+  },
+  {
+    "Municipality (n=104)": "Caledon",
+    "Province": "Ontario",
+    "Latitude": 43.8701204,
+    "Longitude": -79.8670882,
+    "CAP filename": "Ontario_Caledon"
+  },
+  {
+    "Municipality (n=104)": "Cambridge",
+    "Province": "Ontario",
+    "Latitude": 43.3616211,
+    "Longitude": -80.3144276,
+    "CAP filename": "Ontario_Cambridge"
+  },
+  {
+    "Municipality (n=104)": "City of Brantford",
+    "Province": "Ontario",
+    "Latitude": 43.1394179,
+    "Longitude": -80.263616,
+    "CAP filename": "Ontario_City of Brantford"
+  },
+  {
+    "Municipality (n=104)": "City of Markham",
+    "Province": "Ontario",
+    "Latitude": 43.8599076,
+    "Longitude": -79.3349945,
+    "CAP filename": "Ontario_City of Markham"
+  },
+  {
+    "Municipality (n=104)": "City of Sault Ste. Marie",
+    "Province": "Ontario",
+    "Latitude": 46.5136494,
+    "Longitude": -84.3357525999999,
+    "CAP filename": "Ontario_City of Sault Ste. Marie"
+  },
+  {
+    "Municipality (n=104)": "Cornwall",
+    "Province": "Ontario",
+    "Latitude": 45.0212762,
+    "Longitude": -74.730345,
+    "CAP filename": "Ontario_Cornwall"
+  },
+  {
+    "Municipality (n=104)": "Corporation of the City of Windsor",
+    "Province": "Ontario",
+    "Latitude": 42.3182429,
+    "Longitude": -83.0104135999999,
+    "CAP filename": "Ontario_Corporation of the City of Windsor"
+  },
+  {
+    "Municipality (n=104)": "County of Wellington",
+    "Province": "Ontario",
+    "Latitude": 43.7803323,
+    "Longitude": -80.5438449999999,
+    "CAP filename": "Ontario_County of Wellington"
+  },
+  {
+    "Municipality (n=104)": "District Municipality of Muskoka",
+    "Province": "Ontario",
+    "Latitude": 45.1090674,
+    "Longitude": -79.5875195,
+    "CAP filename": "Ontario_District Municipality of Muskoka"
+  },
+  {
+    "Municipality (n=104)": "Dufferin",
+    "Province": "Ontario",
+    "Latitude": 44.0527524,
+    "Longitude": -80.1875065,
+    "CAP filename": "Ontario_Dufferin"
+  },
+  {
+    "Municipality (n=104)": "Durham Region",
+    "Province": "Ontario",
+    "Latitude": 43.9368383,
+    "Longitude": -78.9288242,
+    "CAP filename": "Ontario_Durham Region"
+  },
+  {
+    "Municipality (n=104)": "Greater Sudbury",
+    "Province": "Ontario",
+    "Latitude": 46.4917317,
+    "Longitude": -80.9930289999999,
+    "CAP filename": "Ontario_Greater Sudbury"
+  },
+  {
+    "Municipality (n=104)": "Grey County",
+    "Province": "Ontario",
+    "Latitude": 44.4659957,
+    "Longitude": -80.6326916,
+    "CAP filename": "Ontario_Grey County"
+  },
+  {
+    "Municipality (n=104)": "Guelph",
+    "Province": "Ontario",
+    "Latitude": 43.5448048,
+    "Longitude": -80.2481665999999,
+    "CAP filename": "Ontario_Guelph"
+  },
+  {
+    "Municipality (n=104)": "Halton Hills",
+    "Province": "Ontario",
+    "Latitude": 43.6502725,
+    "Longitude": -79.9036321,
+    "CAP filename": "Ontario_Halton Hills"
+  },
+  {
+    "Municipality (n=104)": "Hamilton",
+    "Province": "Ontario",
+    "Latitude": 43.2557206,
+    "Longitude": -79.8711024,
+    "CAP filename": "Ontario_Hamilton"
+  },
+  {
+    "Municipality (n=104)": "King Township",
+    "Province": "Ontario",
+    "Latitude": 43.9927234,
+    "Longitude": -79.6742364999999,
+    "CAP filename": "Ontario_King Township"
+  },
+  {
+    "Municipality (n=104)": "Kingston",
+    "Province": "Ontario",
+    "Latitude": 44.2334401,
+    "Longitude": -76.4930294999999,
+    "CAP filename": "Ontario_Kingston"
+  },
+  {
+    "Municipality (n=104)": "London",
+    "Province": "Ontario",
+    "Latitude": 42.9849233,
+    "Longitude": -81.2452768,
+    "CAP filename": "Ontario_London"
+  },
+  {
+    "Municipality (n=104)": "Loyalist",
+    "Province": "Ontario",
+    "Latitude": 44.2770379,
+    "Longitude": -76.7182924999999,
+    "CAP filename": "Ontario_Loyalist"
+  },
+  {
+    "Municipality (n=104)": "Mississauga",
+    "Province": "Ontario",
+    "Latitude": 43.5852972,
+    "Longitude": -79.6449837999999,
+    "CAP filename": "Ontario_Mississauga"
+  },
+  {
+    "Municipality (n=104)": "Oakville",
+    "Province": "Ontario",
+    "Latitude": 43.4507462,
+    "Longitude": -79.7288743,
+    "CAP filename": "Ontario_Oakville"
+  },
+  {
+    "Municipality (n=104)": "Orillia",
+    "Province": "Ontario",
+    "Latitude": 44.6082465,
+    "Longitude": -79.4196783,
+    "CAP filename": "Ontario_Orillia"
+  },
+  {
+    "Municipality (n=104)": "Ottawa",
+    "Province": "Ontario",
+    "Latitude": 45.4200572,
+    "Longitude": -75.7003397,
+    "CAP filename": "Ontario_Ottawa"
+  },
+  {
+    "Municipality (n=104)": "Owen Sound",
+    "Province": "Ontario",
+    "Latitude": 44.5690305,
+    "Longitude": -80.9405602,
+    "CAP filename": "Ontario_Owen Sound"
+  },
+  {
+    "Municipality (n=104)": "Peterborough",
+    "Province": "Ontario",
+    "Latitude": 44.3047061,
+    "Longitude": -78.3199606,
+    "CAP filename": "Ontario_Peterborough"
+  },
+  {
+    "Municipality (n=104)": "Region of Peel",
+    "Province": "Ontario",
+    "Latitude": 43.6766398,
+    "Longitude": -79.7848422,
+    "CAP filename": "Ontario_Region of Peel"
+  },
+  {
+    "Municipality (n=104)": "Richmond Hill",
+    "Province": "Ontario",
+    "Latitude": 43.8688079,
+    "Longitude": -79.4137152999999,
+    "CAP filename": "Ontario_Richmond Hill"
+  },
+  {
+    "Municipality (n=104)": "Tay Valley Township",
+    "Province": "Ontario",
+    "Latitude": 44.8853517,
+    "Longitude": -76.3124898,
+    "CAP filename": "Ontario_Tay Valley Township"
+  },
+  {
+    "Municipality (n=104)": "Thunder Bay",
+    "Province": "Ontario",
+    "Latitude": 48.3808951,
+    "Longitude": -89.2476823,
+    "CAP filename": "Ontario_Thunder Bay"
+  },
+  {
+    "Municipality (n=104)": "Timmins",
+    "Province": "Ontario",
+    "Latitude": 48.4758208,
+    "Longitude": -81.3304953,
+    "CAP filename": "Ontario_Timmins"
+  },
+  {
+    "Municipality (n=104)": "Toronto",
+    "Province": "Ontario",
+    "Latitude": 43.653226,
+    "Longitude": -79.3831843,
+    "CAP filename": "Ontario_Toronto"
+  },
+  {
+    "Municipality (n=104)": "Township of Selwyn",
+    "Province": "Ontario",
+    "Latitude": 44.4062479,
+    "Longitude": -78.3378513,
+    "CAP filename": "Ontario_Township of Selwyn"
+  },
+  {
+    "Municipality (n=104)": "Township of Uxbridge",
+    "Province": "Ontario",
+    "Latitude": 44.1086732,
+    "Longitude": -79.1232225,
+    "CAP filename": "Ontario_Township of Uxbridge"
+  },
+  {
+    "Municipality (n=104)": "Waterloo Region",
+    "Province": "Ontario",
+    "Latitude": 43.4757989,
+    "Longitude": -80.5438449999999,
+    "CAP filename": "Ontario_Waterloo Region"
+  },
+  {
+    "Municipality (n=104)": "Whitby",
+    "Province": "Ontario",
+    "Latitude": 43.8997643,
+    "Longitude": -78.9400809,
+    "CAP filename": "Ontario_Whitby"
+  },
+  {
+    "Municipality (n=104)": "York Region",
+    "Province": "Ontario",
+    "Latitude": 43.9884612,
+    "Longitude": -79.4703885,
+    "CAP filename": "Ontario_York Region"
+  },
+  {
+    "Municipality (n=104)": "Stratford",
+    "Province": "Prince Edward Island",
+    "Latitude": 46.2168746,
+    "Longitude": -63.0881529,
+    "CAP filename": "Prince Edward Island_Stratford"
+  },
+  {
+    "Municipality (n=104)": "Candiac",
+    "Province": "Quebec",
+    "Latitude": 45.3806689,
+    "Longitude": -73.5077689,
+    "CAP filename": "Quebec_Candiac"
+  },
+  {
+    "Municipality (n=104)": "Laval",
+    "Province": "Quebec",
+    "Latitude": 45.6066487,
+    "Longitude": -73.712409,
+    "CAP filename": "Quebec_Laval"
+  },
+  {
+    "Municipality (n=104)": "Mont-Saint-Hilaire",
+    "Province": "Quebec",
+    "Latitude": 45.5640416,
+    "Longitude": -73.1790126,
+    "CAP filename": "Quebec_Mont-Saint-Hilaire"
+  },
+  {
+    "Municipality (n=104)": "MRC de la Côte-de-Gaspé",
+    "Province": "Quebec",
+    "Latitude": 48.805466,
+    "Longitude": -64.4888323,
+    "CAP filename": "Quebec_MRC de la Côte-de-Gaspé"
+  },
+  {
+    "Municipality (n=104)": "MRC Marguerite-D'Youville",
+    "Province": "Quebec",
+    "Latitude": 52.9399159,
+    "Longitude": -73.5491361,
+    "CAP filename": "Quebec_MRC Marguerite-D'Youville"
+  },
+  {
+    "Municipality (n=104)": "MRC Vaudreuil Soulanges",
+    "Province": "Quebec",
+    "Latitude": 45.3810072,
+    "Longitude": -74.0153390999999,
+    "CAP filename": "Quebec_MRC Vaudreuil Soulanges"
+  },
+  {
+    "Municipality (n=104)": "Saint-Laurent",
+    "Province": "Quebec",
+    "Latitude": 45.5022961,
+    "Longitude": -73.7060659999999,
+    "CAP filename": "Quebec_Saint-Laurent"
+  },
+  {
+    "Municipality (n=104)": "Victoriaville",
+    "Province": "Québec",
+    "Latitude": 46.0556724,
+    "Longitude": -71.9589558999999,
+    "CAP filename": "Québec_Victoriaville"
+  },
+  {
+    "Municipality (n=104)": "Ville de Beloeil",
+    "Province": "Quebec",
+    "Latitude": 45.5679246,
+    "Longitude": -73.2039468999999,
+    "CAP filename": "Quebec_Ville de Beloeil"
+  },
+  {
+    "Municipality (n=104)": "Ville de Chambly",
+    "Province": "Quebec",
+    "Latitude": 45.4409293,
+    "Longitude": -73.3015764,
+    "CAP filename": "Quebec_Ville de Chambly"
+  },
+  {
+    "Municipality (n=104)": "Ville de Gatineau",
+    "Province": "Quebec",
+    "Latitude": 45.4765446,
+    "Longitude": -75.7012723,
+    "CAP filename": "Quebec_Ville de Gatineau"
+  },
+  {
+    "Municipality (n=104)": "Ville de Granby",
+    "Province": "Quebec",
+    "Latitude": 45.4032288999999,
+    "Longitude": -72.7340662,
+    "CAP filename": "Quebec_Ville de Granby"
+  },
+  {
+    "Municipality (n=104)": "Ville de Montréal",
+    "Province": "Quebec",
+    "Latitude": 45.5018869,
+    "Longitude": -73.5673918999999,
+    "CAP filename": "Quebec_Ville de Montréal"
+  },
+  {
+    "Municipality (n=104)": "Ville de Québec",
+    "Province": "Quebec",
+    "Latitude": 46.8130816,
+    "Longitude": -71.2074595999999,
+    "CAP filename": "Quebec_Ville de Québec"
+  },
+  {
+    "Municipality (n=104)": "City of Regina",
+    "Province": "Saskatchewan",
+    "Latitude": 50.4452112,
+    "Longitude": -104.6188944,
+    "CAP filename": "Saskatchewan_City of Regina"
+  },
+  {
+    "Municipality (n=104)": "Saskatoon",
+    "Province": "Saskatchewan",
+    "Latitude": 52.157902,
+    "Longitude": -106.6701577,
+    "CAP filename": "Saskatchewan_Saskatoon"
+  },
+  {
+    "Municipality (n=104)": "Whitehorse",
+    "Province": "Yukon",
+    "Latitude": 60.7197137,
+    "Longitude": -135.0522761,
+    "CAP filename": "Yukon_Whitehorse"
+  }
+]
