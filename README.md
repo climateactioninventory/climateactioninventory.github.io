@@ -1,1 +1,1 @@
-# Canadian Municipal Climate Action Inventory available to view at [climateactioninventory.github.io](climateactioninventory.github.io)
+# Canadian Municipal Climate Action Inventory available to view at [climateactioninventory.github.io](https://climateactioninventory.github.io)
