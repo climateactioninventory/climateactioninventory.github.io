@@ -13,24 +13,24 @@ jobs:
 
       - name: Fetch actions sheet
         run: |
-          RESPONSE=$(curl -f -s "https://script.google.com/macros/s/AKfycbyMt6mx-txafe7ZsIXCBs1omcFFNE_7X_HqSwLNT1KEy5yo0yJO-pmZD_VboRAgfkFN/exec")
-          echo "Actions sheet response:"
-          echo "$RESPONSE"
-          echo "$RESPONSE" | jq '.data' > data/actions.json
+          RESPONSE=$(curl -f -s -L "https://script.google.com/macros/s/AKfycbyMt6mx-txafe7ZsIXCBs1omcFFNE_7X_HqSwLNT1KEy5yo0yJO-pmZD_VboRAgfkFN/exec")
+          echo "=== Actions sheet response ==="
+          echo "$RESPONSE" | head -20
+          echo "$RESPONSE" | jq '.data' > data/actions.json || echo "Failed to parse"
 
       - name: Fetch actions_mod sheet
         run: |
-          RESPONSE=$(curl -f -s "https://script.google.com/macros/s/AKfycbw8vOIbhRNaOCvjJBZZ-nKAvWWhLyTIGRzwk9FXS4DjKSjbnZoe4FXj8EVIKD0o0kX-/exec")
-          echo "Actions_mod sheet response:"
-          echo "$RESPONSE"
-          echo "$RESPONSE" | jq '.data' > data/actions_mod.json
+          RESPONSE=$(curl -f -s -L "https://script.google.com/macros/s/AKfycbw8vOIbhRNaOCvjJBZZ-nKAvWWhLyTIGRzwk9FXS4DjKSjbnZoe4FXj8EVIKD0o0kX-/exec")
+          echo "=== Actions_mod sheet response ==="
+          echo "$RESPONSE" | head -20
+          echo "$RESPONSE" | jq '.data' > data/actions_mod.json || echo "Failed to parse"
 
       - name: Fetch cities sheet
         run: |
-          RESPONSE=$(curl -f -s "https://script.google.com/macros/s/AKfycbxPsrugCMqZJOTjd2oOO3H6FNi_xKvNSkruwRfjoO51dhdTFTxzXJp0KF9OEvcMuEoK/exec")
-          echo "Cities sheet response:"
-          echo "$RESPONSE"
-          echo "$RESPONSE" | jq '.data' > data/cities.json
+          RESPONSE=$(curl -f -s -L "https://script.google.com/macros/s/AKfycbxPsrugCMqZJOTjd2oOO3H6FNi_xKvNSkruwRfjoO51dhdTFTxzXJp0KF9OEvcMuEoK/exec")
+          echo "=== Cities sheet response ==="
+          echo "$RESPONSE" | head -20
+          echo "$RESPONSE" | jq '.data' > data/cities.json || echo "Failed to parse"
 
       - name: Validate JSON
         run: |
