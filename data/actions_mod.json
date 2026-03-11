@@ -98,27 +98,6 @@
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
-    "Action id": "ID-Brampton-023",
-    "Municipality/Region name ": "Brampton",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
-    "Action id": "ID-Brampton-024",
-    "Municipality/Region name ": "Brampton",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
-    "Action id": "ID-Brampton-025",
-    "Municipality/Region name ": "Brampton",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-Brampton-026",
     "Municipality/Region name ": "Brampton",
     "Province": "Ontario",
@@ -343,13 +322,6 @@
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
-    "Action id": "ID-Caledon-002",
-    "Municipality/Region name ": "Caledon",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-Calgary-001",
     "Municipality/Region name ": "Calgary",
     "Province": "Alberta",
@@ -490,13 +462,6 @@
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
-    "Action id": "ID-Calgary-021",
-    "Municipality/Region name ": "Calgary",
-    "Province": "Alberta",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-Calgary-022",
     "Municipality/Region name ": "Calgary",
     "Province": "Alberta",
@@ -576,28 +541,28 @@
   {
     "Action id": "ID-Candiac-001",
     "Municipality/Region name ": "Candiac",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
     "Strategy\n(Managable Coding)": "Mandate No- to Low Carbon Standards for New Construction"
   },
   {
     "Action id": "ID-Candiac-002",
     "Municipality/Region name ": "Candiac",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Candiac-003",
     "Municipality/Region name ": "Candiac",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Promote Energy Conservation Behaviors by Building Occupants/Tenants"
   },
   {
     "Action id": "ID-Candiac-004",
     "Municipality/Region name ": "Candiac",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
     "Strategy\n(Managable Coding)": "Mandate No- to Low Carbon Standards for New Construction"
   },
@@ -882,13 +847,6 @@
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
-    "Action id": "ID-City of Prince George-006",
-    "Municipality/Region name ": "City of Prince George",
-    "Province": "British Columbia",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-City of Prince George-007",
     "Municipality/Region name ": "City of Prince George",
     "Province": "British Columbia",
@@ -992,13 +950,6 @@
     "Province": "British Columbia",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Encourage Improved Energy Efficiency Performance of Existing Buildings"
-  },
-  {
-    "Action id": "ID-City of Richmond-005",
-    "Municipality/Region name ": "City of Richmond",
-    "Province": "British Columbia",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-City of Richmond-006",
@@ -1216,13 +1167,6 @@
     "Province": "Ontario",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
     "Strategy\n(Managable Coding)": "Mandate No- to Low Carbon Standards for New Construction"
-  },
-  {
-    "Action id": "ID-City of Sault Ste. Marie-009",
-    "Municipality/Region name ": "City of Sault Ste. Marie",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-City of Sault Ste. Marie-010",
@@ -1491,13 +1435,6 @@
     "Strategy\n(Managable Coding)": "Promote Energy Conservation Behaviors by Building Occupants/Tenants"
   },
   {
-    "Action id": "ID-Corner Brook-007",
-    "Municipality/Region name ": "Corner Brook",
-    "Province": "Newfoundland and Labrador",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-Corner Brook-008",
     "Municipality/Region name ": "Corner Brook",
     "Province": "Newfoundland and Labrador",
@@ -1671,20 +1608,6 @@
     "Province": "British Columbia",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Invest in Technology Development and Deployment "
-  },
-  {
-    "Action id": "ID-Corporation of the City of Cranbrook-017",
-    "Municipality/Region name ": "Corporation of the City of Cranbrook",
-    "Province": "British Columbia",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
-    "Action id": "ID-Corporation of the City of Windsor-001",
-    "Municipality/Region name ": "Corporation of the City of Windsor",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-Corporation of the City of Windsor-002",
@@ -2016,13 +1939,6 @@
     "Strategy\n(Managable Coding)": "Promote Energy Conservation Behaviors by Building Occupants/Tenants"
   },
   {
-    "Action id": "ID-District of Saanich-009",
-    "Municipality/Region name ": "District of Saanich",
-    "Province": "British Columbia",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-District of Saanich-010",
     "Municipality/Region name ": "District of Saanich",
     "Province": "British Columbia",
@@ -2205,13 +2121,6 @@
     "Strategy\n(Managable Coding)": "Encourage Improved Energy Efficiency Performance of Existing Buildings"
   },
   {
-    "Action id": "ID-District of Sooke-016",
-    "Municipality/Region name ": "District of Sooke",
-    "Province": "British Columbia",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-District of Sooke-017",
     "Municipality/Region name ": "District of Sooke",
     "Province": "British Columbia",
@@ -2245,13 +2154,6 @@
     "Province": "Ontario",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Promote Energy Conservation Behaviors by Building Occupants/Tenants"
-  },
-  {
-    "Action id": "ID-Dufferin-003",
-    "Municipality/Region name ": "Dufferin",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-Dufferin-004",
@@ -2555,13 +2457,6 @@
     "Strategy\n(Managable Coding)": "Invest in Technology Development and Deployment "
   },
   {
-    "Action id": "ID-Fredericton-005",
-    "Municipality/Region name ": "Fredericton",
-    "Province": "New Brunswick",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-Fredericton-006",
     "Municipality/Region name ": "Fredericton",
     "Province": "New Brunswick",
@@ -2623,13 +2518,6 @@
     "Province": "New Brunswick",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Support/Provide Rewards for Performance"
-  },
-  {
-    "Action id": "ID-Fredericton-017",
-    "Municipality/Region name ": "Fredericton",
-    "Province": "New Brunswick",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-Fredericton-018",
@@ -2905,13 +2793,6 @@
     "Strategy\n(Managable Coding)": "Expand capacity of efficient heating and cooling\\Invest in Technology Development and Deployment"
   },
   {
-    "Action id": "ID-Halifax-005",
-    "Municipality/Region name ": "Halifax",
-    "Province": "Nova Scotia",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-Halton Hills-001",
     "Municipality/Region name ": "Halton Hills",
     "Province": "Ontario",
@@ -2980,13 +2861,6 @@
     "Province": "Ontario",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Promote Energy Conservation Behaviors by Building Occupants/Tenants"
-  },
-  {
-    "Action id": "ID-Hamilton-001",
-    "Municipality/Region name ": "Hamilton",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-Kamloops-001",
@@ -3248,13 +3122,6 @@
     "Strategy\n(Managable Coding)": "Mandate Performance Improvement within buildings activity sector "
   },
   {
-    "Action id": "ID-Kingston-009",
-    "Municipality/Region name ": "Kingston",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-Kingston-010",
     "Municipality/Region name ": "Kingston",
     "Province": "Ontario",
@@ -3267,13 +3134,6 @@
     "Province": "Ontario",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
     "Strategy\n(Managable Coding)": "Mandate Performance Improvement within buildings activity sector "
-  },
-  {
-    "Action id": "ID-Kingston-012",
-    "Municipality/Region name ": "Kingston",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-Kingston-013",
@@ -3290,13 +3150,6 @@
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
-    "Action id": "ID-Kingston-015",
-    "Municipality/Region name ": "Kingston",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-Kingston-016",
     "Municipality/Region name ": "Kingston",
     "Province": "Ontario",
@@ -3304,25 +3157,11 @@
     "Strategy\n(Managable Coding)": "Mandate Performance Improvement within buildings activity sector "
   },
   {
-    "Action id": "ID-Kingston-017",
-    "Municipality/Region name ": "Kingston",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-Kingston-018",
     "Municipality/Region name ": "Kingston",
     "Province": "Ontario",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
-  },
-  {
-    "Action id": "ID-Kingston-019",
-    "Municipality/Region name ": "Kingston",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-Kingston-020",
@@ -3360,60 +3199,46 @@
     "Strategy\n(Managable Coding)": "Mandate Performance Improvement within buildings activity sector "
   },
   {
-    "Action id": "ID-Kingston-025",
-    "Municipality/Region name ": "Kingston",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-Laval-001",
     "Municipality/Region name ": "Laval",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Laval-003",
     "Municipality/Region name ": "Laval",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Laval-004",
     "Municipality/Region name ": "Laval",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Laval-005",
     "Municipality/Region name ": "Laval",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
     "Action id": "ID-Laval-006",
     "Municipality/Region name ": "Laval",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Promote Energy Conservation Behaviors by Building Occupants/Tenants"
   },
   {
     "Action id": "ID-Laval-009",
     "Municipality/Region name ": "Laval",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
     "Strategy\n(Managable Coding)": "Mandate No- to Low Carbon Standards for New Construction"
-  },
-  {
-    "Action id": "ID-London-001",
-    "Municipality/Region name ": "London",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-London-002",
@@ -3421,13 +3246,6 @@
     "Province": "Ontario",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
-  },
-  {
-    "Action id": "ID-London-003",
-    "Municipality/Region name ": "London",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-London-004",
@@ -3442,20 +3260,6 @@
     "Province": "Ontario",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
-  },
-  {
-    "Action id": "ID-London-006",
-    "Municipality/Region name ": "London",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
-    "Action id": "ID-London-007",
-    "Municipality/Region name ": "London",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-London-008",
@@ -3498,13 +3302,6 @@
     "Province": "Ontario",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
     "Strategy\n(Managable Coding)": "Mandate No- to Low Carbon Standards for New Construction"
-  },
-  {
-    "Action id": "ID-London-014",
-    "Municipality/Region name ": "London",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-London-015",
@@ -3626,46 +3423,11 @@
     "Strategy\n(Managable Coding)": "Support/Provide Rewards for Performance"
   },
   {
-    "Action id": "ID-Mississauga-001",
-    "Municipality/Region name ": "Mississauga",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
-    "Action id": "ID-Mississauga-002",
-    "Municipality/Region name ": "Mississauga",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
-    "Action id": "ID-Mississauga-003",
-    "Municipality/Region name ": "Mississauga",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
-    "Action id": "ID-Mississauga-004",
-    "Municipality/Region name ": "Mississauga",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-Mississauga-005",
     "Municipality/Region name ": "Mississauga",
     "Province": "Ontario",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
     "Strategy\n(Managable Coding)": "Mandate No- to Low Carbon Standards for New Construction"
-  },
-  {
-    "Action id": "ID-Mississauga-006",
-    "Municipality/Region name ": "Mississauga",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-Mississauga-007",
@@ -3726,49 +3488,49 @@
   {
     "Action id": "ID-Mont-Saint-Hilaire-001",
     "Municipality/Region name ": "Mont-Saint-Hilaire",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Promote Energy Conservation Behaviors by Building Occupants/Tenants"
   },
   {
     "Action id": "ID-Mont-Saint-Hilaire-003",
     "Municipality/Region name ": "Mont-Saint-Hilaire",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Promote Energy Conservation Behaviors by Building Occupants/Tenants"
   },
   {
     "Action id": "ID-MRC de la Côte-de-Gaspé-001",
     "Municipality/Region name ": "MRC de la Côte-de-Gaspé",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-MRC de la Côte-de-Gaspé-002",
     "Municipality/Region name ": "MRC de la Côte-de-Gaspé",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-MRC Marguerite-DYouville-001",
     "Municipality/Region name ": "MRC Marguerite-DYouville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-MRC Marguerite-DYouville-002",
     "Municipality/Region name ": "MRC Marguerite-DYouville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
     "Action id": "ID-MRC Vaudreuil Soulanges-001",
     "Municipality/Region name ": "MRC Vaudreuil Soulanges",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
@@ -4394,13 +4156,6 @@
     "Province": "Alberta",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
-  },
-  {
-    "Action id": "ID-Okotoks-011",
-    "Municipality/Region name ": "Okotoks",
-    "Province": "Alberta",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-Okotoks-012",
@@ -5056,63 +4811,63 @@
   {
     "Action id": "ID-Saint-Laurent-001",
     "Municipality/Region name ": "Saint-Laurent",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Saint-Laurent-002",
     "Municipality/Region name ": "Saint-Laurent",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Saint-Laurent-003",
     "Municipality/Region name ": "Saint-Laurent",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
     "Strategy\n(Managable Coding)": "Mandate Reporting"
   },
   {
     "Action id": "ID-Saint-Laurent-004",
     "Municipality/Region name ": "Saint-Laurent",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Encourage Improved Energy Efficiency Performance of Existing Buildings"
   },
   {
     "Action id": "ID-Saint-Laurent-005",
     "Municipality/Region name ": "Saint-Laurent",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Encourage Improved Energy Efficiency Performance of Existing Buildings"
   },
   {
     "Action id": "ID-Saint-Laurent-007",
     "Municipality/Region name ": "Saint-Laurent",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Encourage Improved Energy Efficiency Performance of Existing Buildings"
   },
   {
     "Action id": "ID-Saint-Laurent-009",
     "Municipality/Region name ": "Saint-Laurent",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Saint-Laurent-010",
     "Municipality/Region name ": "Saint-Laurent",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Promote Energy Conservation Behaviors by Building Occupants/Tenants"
   },
   {
     "Action id": "ID-Saint-Laurent-011",
     "Municipality/Region name ": "Saint-Laurent",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
@@ -5418,13 +5173,6 @@
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
-    "Action id": "ID-Spruce Grove-019",
-    "Municipality/Region name ": "Spruce Grove",
-    "Province": "Alberta",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-Spruce Grove-020",
     "Municipality/Region name ": "Spruce Grove",
     "Province": "Alberta",
@@ -5493,13 +5241,6 @@
     "Province": "British Columbia",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Encourage Improved Energy Efficiency Performance of Existing Buildings"
-  },
-  {
-    "Action id": "ID-Squamish-006",
-    "Municipality/Region name ": "Squamish",
-    "Province": "British Columbia",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-Squamish-007",
@@ -5859,13 +5600,6 @@
     "Strategy\n(Managable Coding)": "Mandate No- to Low Carbon Standards for New Construction"
   },
   {
-    "Action id": "ID-Sunshine Coast Regional District-002",
-    "Municipality/Region name ": "Sunshine Coast Regional District",
-    "Province": "British Columbia",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-Sunshine Coast Regional District-004",
     "Municipality/Region name ": "Sunshine Coast Regional District",
     "Province": "British Columbia",
@@ -5913,27 +5647,6 @@
     "Province": "British Columbia",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Support/Provide Rewards for Performance"
-  },
-  {
-    "Action id": "ID-Surrey-007",
-    "Municipality/Region name ": "Surrey",
-    "Province": "British Columbia",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
-    "Action id": "ID-Surrey-008",
-    "Municipality/Region name ": "Surrey",
-    "Province": "British Columbia",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
-    "Action id": "ID-Surrey-009",
-    "Municipality/Region name ": "Surrey",
-    "Province": "British Columbia",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-Surrey-010",
@@ -6048,13 +5761,6 @@
     "Strategy\n(Managable Coding)": "Mandate No- to Low Carbon Standards for New Construction"
   },
   {
-    "Action id": "ID-Thunder Bay-004",
-    "Municipality/Region name ": "Thunder Bay",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-Thunder Bay-005",
     "Municipality/Region name ": "Thunder Bay",
     "Province": "Ontario",
@@ -6102,34 +5808,6 @@
     "Province": "Ontario",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Encourage Improved Energy Efficiency Performance of Existing Buildings"
-  },
-  {
-    "Action id": "ID-Thunder Bay-012",
-    "Municipality/Region name ": "Thunder Bay",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
-    "Action id": "ID-Thunder Bay-013",
-    "Municipality/Region name ": "Thunder Bay",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
-    "Action id": "ID-Thunder Bay-015",
-    "Municipality/Region name ": "Thunder Bay",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
-    "Action id": "ID-Thunder Bay-016",
-    "Municipality/Region name ": "Thunder Bay",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-Timmins-001",
@@ -6214,13 +5892,6 @@
     "Province": "Ontario",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
     "Strategy\n(Managable Coding)": "Mandate No- to Low Carbon Standards for New Construction"
-  },
-  {
-    "Action id": "ID-Toronto-003",
-    "Municipality/Region name ": "Toronto",
-    "Province": "Ontario",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
   },
   {
     "Action id": "ID-Toronto-004",
@@ -6813,259 +6484,252 @@
   {
     "Action id": "ID-Victoriaville-001",
     "Municipality/Region name ": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Victoriaville-002",
     "Municipality/Region name ": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Victoriaville-003",
     "Municipality/Region name ": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Victoriaville-004",
     "Municipality/Region name ": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Victoriaville-005",
     "Municipality/Region name ": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Victoriaville-006",
     "Municipality/Region name ": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Victoriaville-007",
     "Municipality/Region name ": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Victoriaville-008",
     "Municipality/Region name ": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Victoriaville-009",
     "Municipality/Region name ": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Victoriaville-010",
     "Municipality/Region name ": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
     "Action id": "ID-Victoriaville-011",
     "Municipality/Region name ": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
     "Action id": "ID-Victoriaville-012",
     "Municipality/Region name ": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
     "Action id": "ID-Victoriaville-013",
     "Municipality/Region name ": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
     "Action id": "ID-Victoriaville-016",
     "Municipality/Region name ": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
     "Action id": "ID-Victoriaville-017",
     "Municipality/Region name ": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
     "Action id": "ID-Ville de Beloeil-001",
     "Municipality/Region name ": "Ville de Beloeil",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Beloeil-002",
     "Municipality/Region name ": "Ville de Beloeil",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Beloeil-003",
     "Municipality/Region name ": "Ville de Beloeil",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Encourage Improved Energy Efficiency Performance of Existing Buildings"
   },
   {
     "Action id": "ID-Ville de Beloeil-004",
     "Municipality/Region name ": "Ville de Beloeil",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Promote Energy Conservation Behaviors by Building Occupants/Tenants"
   },
   {
     "Action id": "ID-Ville de Chambly-001",
     "Municipality/Region name ": "Ville de Chambly",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
     "Strategy\n(Managable Coding)": "Mandate No- to Low Carbon Standards for New Construction"
   },
   {
-    "Action id": "ID-Ville de Chambly-002",
-    "Municipality/Region name ": "Ville de Chambly",
-    "Province": "Québec",
-    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
-    "Strategy\n(Managable Coding)": "Information gathering phase - strategy not yet identified "
-  },
-  {
     "Action id": "ID-Ville de Chambly-003",
     "Municipality/Region name ": "Ville de Chambly",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Encourage Improved Energy Efficiency Performance of Existing Buildings"
   },
   {
     "Action id": "ID-Ville de Chambly-004",
     "Municipality/Region name ": "Ville de Chambly",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Chambly-005",
     "Municipality/Region name ": "Ville de Chambly",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Support/Provide Rewards for Performance"
   },
   {
     "Action id": "ID-Ville de Chambly-006",
     "Municipality/Region name ": "Ville de Chambly",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Promote Energy Conservation Behaviors by Building Occupants/Tenants"
   },
   {
     "Action id": "ID-Ville de Chambly-007",
     "Municipality/Region name ": "Ville de Chambly",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Promote Energy Conservation Behaviors by Building Occupants/Tenants"
   },
   {
     "Action id": "ID-Ville de Chambly-008",
     "Municipality/Region name ": "Ville de Chambly",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Promote Energy Conservation Behaviors by Building Occupants/Tenants"
   },
   {
     "Action id": "ID-Ville de Gatineau-002",
     "Municipality/Region name ": "Ville de Gatineau",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Encourage Improved Energy Efficiency Performance of Existing Buildings"
   },
   {
     "Action id": "ID-Ville de Gatineau-003",
     "Municipality/Region name ": "Ville de Gatineau",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
     "Action id": "ID-Ville de Gatineau-004",
     "Municipality/Region name ": "Ville de Gatineau",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
     "Strategy\n(Managable Coding)": "Mandate No- to Low Carbon Standards for New Construction"
   },
   {
     "Action id": "ID-Ville de Gatineau-005",
     "Municipality/Region name ": "Ville de Gatineau",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
     "Action id": "ID-Ville de Gatineau-006",
     "Municipality/Region name ": "Ville de Gatineau",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
     "Strategy\n(Managable Coding)": "Mandate No- to Low Carbon Standards for New Construction"
   },
   {
     "Action id": "ID-Ville de Gatineau-007",
     "Municipality/Region name ": "Ville de Gatineau",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Granby-001",
     "Municipality/Region name ": "Ville de Granby",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Granby-002",
     "Municipality/Region name ": "Ville de Granby",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Granby-003",
     "Municipality/Region name ": "Ville de Granby",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Granby-004",
     "Municipality/Region name ": "Ville de Granby",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Invest in Technology Development and Deployment "
   },
@@ -7079,182 +6743,182 @@
   {
     "Action id": "ID-Ville de Montréal-002",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
     "Strategy\n(Managable Coding)": "Mandate No- to Low Carbon Standards for New Construction"
   },
   {
     "Action id": "ID-Ville de Montréal-003",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
     "Action id": "ID-Ville de Montréal-004",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
     "Action id": "ID-Ville de Montréal-005",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Voluntary Action",
     "Strategy\n(Managable Coding)": "Promote Energy Conservation Behaviors by Building Occupants/Tenants"
   },
   {
     "Action id": "ID-Ville de Montréal-006",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Increase Access to Financing"
   },
   {
     "Action id": "ID-Ville de Montréal-007",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Mandates",
     "Strategy\n(Managable Coding)": "Mandate Performance Improvement of Existing Buildings"
   },
   {
     "Action id": "ID-Ville de Montréal-008",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Price Signals",
     "Strategy\n(Managable Coding)": "Subsidize Capacity Building"
   },
   {
     "Action id": "ID-Ville de Montréal-009",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Montréal-010",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Montréal-011",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Montréal-012",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Montréal-013",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Montréal-014",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Montréal-015",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Montréal-016",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Montréal-017",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Montréal-018",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Montréal-019",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Montréal-020",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Montréal-021",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Montréal-022",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
     "Action id": "ID-Ville de Montréal-023",
     "Municipality/Region name ": "Ville de Montréal",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
-    "Action id": "ID-Ville de Québec-001",
-    "Municipality/Region name ": "Ville de Québec",
-    "Province": "Québec",
+    "Action id": "ID-Ville de Quebec-001",
+    "Municipality/Region name ": "Ville de Quebec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
-    "Action id": "ID-Ville de Québec-002",
-    "Municipality/Region name ": "Ville de Québec",
-    "Province": "Québec",
+    "Action id": "ID-Ville de Quebec-002",
+    "Municipality/Region name ": "Ville de Quebec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
-    "Action id": "ID-Ville de Québec-003",
-    "Municipality/Region name ": "Ville de Québec",
-    "Province": "Québec",
+    "Action id": "ID-Ville de Quebec-003",
+    "Municipality/Region name ": "Ville de Quebec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },
   {
-    "Action id": "ID-Ville de Québec-004",
-    "Municipality/Region name ": "Ville de Québec",
-    "Province": "Québec",
+    "Action id": "ID-Ville de Quebec-004",
+    "Municipality/Region name ": "Ville de Quebec",
+    "Province": "Quebec",
     "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": "Public Investment",
     "Strategy\n(Managable Coding)": "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings"
   },

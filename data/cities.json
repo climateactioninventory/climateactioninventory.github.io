@@ -753,10 +753,10 @@
   },
   {
     "Municipality (n=104)": "Victoriaville",
-    "Province": "Québec",
+    "Province": "Quebec",
     "Latitude": 46.0556724,
     "Longitude": -71.9589558999999,
-    "CAP filename": "Québec_Victoriaville",
+    "CAP filename": "Quebec_Victoriaville",
     "Population": 46322
   },
   {
@@ -800,11 +800,11 @@
     "Population": 1750000
   },
   {
-    "Municipality (n=104)": "Ville de Québec",
+    "Municipality (n=104)": "Ville de Quebec",
     "Province": "Quebec",
     "Latitude": 46.8130816,
     "Longitude": -71.2074595999999,
-    "CAP filename": "Quebec_Ville de Québec",
+    "CAP filename": "Quebec_Ville de Quebec",
     "Population": 542000
   },
   {
