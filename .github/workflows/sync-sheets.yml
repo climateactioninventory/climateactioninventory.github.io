@@ -49,5 +49,5 @@ jobs:
             echo "No data changes"
           else
             git commit -m "Update sheet data"
-            git push
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           fi
