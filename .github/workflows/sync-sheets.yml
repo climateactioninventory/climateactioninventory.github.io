@@ -26,7 +26,10 @@ jobs:
           RESPONSE=$(curl -f -s -L "https://script.google.com/macros/s/AKfycbw8vOIbhRNaOCvjJBZZ-nKAvWWhLyTIGRzwk9FXS4DjKSjbnZoe4FXj8EVIKD0o0kX-/exec")
           echo "=== Actions_mod sheet response ==="
           echo "$RESPONSE" | head -20
-          echo "$RESPONSE" | jq '.data' > data/actions_mod.json || echo "Failed to parse"
+
+          echo "$RESPONSE" \
+            | jq '.data | map(select(tostring | contains("Information gathering phase") | not))' \
+            > data/actions_mod.json || echo "Failed to parse"
 
       - name: Fetch cities sheet
         run: |
