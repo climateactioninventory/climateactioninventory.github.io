@@ -46,15 +46,15 @@ document.addEventListener('DOMContentLoaded', function () {
         const name = item['\ufeffMunicipality (n=104)'] || item['Municipality (n=104)'] || item.Municipality || item['Municipality'];
         const province = item.Province || item.province || '';
         const pop = item.Population || '';
-
+        const capLink = item['CAP link'] || item['Cap link'] || item.capLink || item.cap_link || '';
 
         if (lat && lon) {
           const marker = L.marker([lat, lon]).addTo(map);
+          const capLinkHtml = capLink ? `<br/><a href="${capLink}" target="_blank" rel="noopener">See climate action plan</a>` : '';
           const popupHtml = `<strong>${name || 'Unknown'}</strong> 
             <br/>${province}<br/>
-            Population: ${pop || 'n/a'} <br/>
-            
-            `;
+            Population: ${pop || 'n/a'} 
+            ${capLinkHtml}`;
           marker.bindPopup(popupHtml);
         }
       });
