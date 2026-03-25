@@ -194,7 +194,7 @@
         const natCounts = countsByLevers(actions, levers);
         const provPerc = percentize(provCounts);
         const natPerc = percentize(natCounts);
-        const labels = [selectedProv || 'Selected province', 'Canada'];
+        const labels = [selectedProv || 'Province sélectionnée', 'Canada'];
         const datasets = levers.map((lever,idx) => ({
             label: lever,
             data: [ +(provPerc[lever]||0).toFixed(2), +(natPerc[lever]||0).toFixed(2) ],
@@ -228,7 +228,7 @@
         const cityPerc = percentize(cityCounts);
         const provPerc = percentize(provCounts);
         const natPerc = percentize(natCounts);
-        const labels = [city || 'Selected city', prov || 'Province', 'Canada'];
+        const labels = [city || 'Municipalité sélectionnée', prov || 'Province', 'Canada'];
         const datasets = levers.map((lever,idx) => ({
             label: lever,
             data: [ +(cityPerc[lever]||0).toFixed(2), +(provPerc[lever]||0).toFixed(2), +(natPerc[lever]||0).toFixed(2) ],
