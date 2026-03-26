@@ -149,7 +149,7 @@
 					<div class="index align-left">
 					<!-- Province selector (populated from data/cities.json) -->
 					<div style="margin-bottom:1rem;">
-						<label for="province-select-prov" style="font-weight:600; display:block; margin-bottom:0.25rem;">Select a province:</label>
+						<label for="province-select-prov" style="font-weight:600; display:block; margin-bottom:0.25rem;" data-i18n="selectProvince">Select a province:</label>
 						<select id="province-select-prov" class="fit" style="max-width:18rem; padding:0.5rem;">
 							<option value="">Loading…</option>
 						</select>
@@ -187,7 +187,7 @@
 							<select id="province-select-mun" class="fit" style="max-width:18rem; padding:0.5rem;"></select>
 						</div>
 						<div>
-							<label for="city-select-mun" style="font-weight:600; display:block; margin-bottom:0.25rem;">City</label>
+							<label for="city-select-mun" style="font-weight:600; display:block; margin-bottom:0.25rem;" data-i18n="selectCity">Municipality</label>
 							<select id="city-select-mun" class="fit" style="max-width:22rem; padding:0.5rem;"></select>
 						</div>
 					
@@ -219,7 +219,7 @@
 
 					<!-- Lever selector for strategies -->
 					<div style="margin-bottom:1rem;">
-						<label for="lever-select-strategy" style="font-weight:600; display:block; margin-bottom:0.25rem;">Select a policy lever:</label>
+						<label for="lever-select-strategy" style="font-weight:600; display:block; margin-bottom:0.25rem;" data-i18n="selectLever">Select a policy lever:</label>
 						<select id="lever-select-strategy" class="fit" style="max-width:18rem; padding:0.5rem;">
 							<option value="">Loading…</option>
 						</select>
@@ -227,7 +227,7 @@
 
 					<!-- Strategy charts placeholder -->
 					<div id="strategy-placeholder">
-						<p style="color:#999;">Select a policy lever to view the distribution of strategies.</p>
+						<p style="color:#999;" data-i18n="selectLeverToViewStrategies">Select a policy lever to view the distribution of strategies.</p>
 					</div>
 
 					<!-- Single strategy chart display -->
@@ -291,6 +291,7 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/i18n.js"></script>
 			<script src="assets/js/main.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 

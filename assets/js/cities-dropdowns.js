@@ -7,7 +7,7 @@
     const TRANS = {
         en: {
             selectProvince: 'Select a province',
-            selectCity: 'Select a city',
+            selectCity: 'Select a municipality',
             loading: 'Loading...',
             selectProvinceFirst: 'Select a province first',
             noCities: 'No cities found'
@@ -100,7 +100,7 @@
             citySel.appendChild(optionEl('','' + t('noCities')));
             return;
         }
-        citySel.appendChild(optionEl('','Select a city'));
+        citySel.appendChild(optionEl('', t('selectCity')));
         cityList.forEach(c => citySel.appendChild(optionEl(c,c)));
     }
 
