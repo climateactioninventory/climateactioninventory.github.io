@@ -38,10 +38,16 @@ jobs:
           echo "$RESPONSE" | head -20
           echo "$RESPONSE" | jq '.data' > data/cities.json || echo "Failed to parse"
 
+      - name: Run data translation
+        run: |
+          python3 data/datatranslation.py
+
       - name: Validate JSON
         run: |
           jq empty data/actions.json
           jq empty data/actions_mod.json
+          jq empty data/FRactions.json
+          jq empty data/FRactions_mod.json
           jq empty data/cities.json
 
       - name: Commit updates
