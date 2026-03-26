@@ -3,7 +3,10 @@
    Filtered by selected lever (policy lever) and displays based on current geography view.
 */
 (function(){
-    const DATA_FILE = './data/actions_mod.json';
+    const lang = (document.documentElement.getAttribute('lang') || 'en').toLowerCase().startsWith('fr') ? 'fr' : 'en';
+    const DEFAULT_DATA_FILE = './data/actions_mod.json';
+    const FR_DATA_FILE = './data/FRactions_mod.json';
+    const DATA_FILE = lang === 'fr' ? FR_DATA_FILE : DEFAULT_DATA_FILE;
     let actions = [];
     let strategyKey = null;
     let leverKey = null;
@@ -63,7 +66,13 @@
     };
     // Init
     function init(){
-        fetch(DATA_FILE).then(r => r.json()).then(d => {
+        const resolvedDataFile = DATA_FILE;
+        fetch(resolvedDataFile).then(r => {
+            if(!r.ok && lang === 'fr') {
+                return fetch(DEFAULT_DATA_FILE);
+            }
+            return r;
+        }).then(r => r.json()).then(d => {
             actions = d;
             if(!actions.length) return console.warn('No actions in data file.');
             detectKeys(actions[0]);
