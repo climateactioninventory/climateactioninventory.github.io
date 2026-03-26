@@ -1,0 +1,29 @@
+{
+    "Policy lever (voluntary, price, investments, mandating) (i.e., mode of governance)": 
+    {
+        "Mandates": "Exigences",
+        "Voluntary Action": "Action volontaire",
+        "Price Signals": "Signaux de prix",
+        "Public Investment": "Investissements publics",
+        "Information gathering phase - lever not yet identified": "Phase de collecte d'informations - levier non encore identifié",
+        "Action under consideration by municipality - not enough information to code.": "Action à l'étude par la municipalité – informations insuffisantes pour coder."
+    },
+    "Strategy\n(Managable Coding)":
+    {
+        "Encourage Improved Energy Efficiency Performance of Existing Buildings": "Encourager l'amélioration de la performance énergétique des bâtiments existants",
+        "Encourage Improved Energy Efficiency Performance of New Buildings": "Encourager l'amélioration de la performance énergétique des nouveaux bâtiments",
+        "Expand Capacity of Efficient Heating and Cooling/Invest in Technology Development and Deployment": "Développer les capacités de chauffage et de climatisation efficaces/Investir dans le développement et le déploiement de technologies",
+        "Increase Access to Financing": "Améliorer l'accès au financement",
+        "Information gathering phase - strategy not yet identified": "Phase de collecte d'informations - stratégie non encore identifié",
+        "Invest in Technology Development and Deployment ": "Investir dans le développement et le déploiement de technologies",
+        "Mandate No- to Low Carbon Standards for New Construction": "Exiger des normes de zéro ou faible émission de carbone pour les nouvelles constructions",
+        "Mandate Performance Improvement of Existing Buildings": "Exiger l'amélioration de la performance énergétique des bâtiments existants",
+        "Mandate Performance Improvement Within Buildings Activity Sector ": "Exiger des améliorations en matière de performance énergétique dans le secteur des bâtiments",
+        "Mandate Reporting": "Exiger les déclarations",
+        "Model the Behavior Invest in Energy Efficiency Improvements or Retrofitting of Government Buildings": "Montrer l'exemple : investir dans l'amélioration de l'efficacité énergétique ou la rénovation des bâtiments publics",
+        "Promote Energy Conservation Behaviors by Building Occupants/Tenants": "Encourager les comportements favorisant les économies d'énergie chez les occupants et les locataires des bâtiments",
+        "Subsidize Capacity Building": "Subventionner le renforcement des capacités",
+        "Subsidize Capacity Improvements for Building Management": "Subventionner les amélioration des capacités en gestion immobilière",
+        "Support/Provide Rewards for Performance": "Soutenir/récompenser la performance"
+    }
+}
