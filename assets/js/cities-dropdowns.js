@@ -4,6 +4,33 @@
     let provinceKey = null;
     let cityKey = null;
 
+    const TRANS = {
+        en: {
+            selectProvince: 'Select a province',
+            selectCity: 'Select a city',
+            loading: 'Loading...',
+            selectProvinceFirst: 'Select a province first',
+            noCities: 'No cities found'
+        },
+        fr: {
+            selectProvince: 'Sélectionnez une province',
+            selectCity: 'Sélectionnez une municipalité',
+            loading: 'Chargement...',
+            selectProvinceFirst: 'Sélectionnez d’abord une province',
+            noCities: 'Aucune municipalité trouvée'
+        }
+    };
+
+    function getLang(){
+        const l = document.documentElement.lang || 'en';
+        return l.toLowerCase().startsWith('fr') ? 'fr' : 'en';
+    }
+
+    function t(key){
+        const lang = getLang();
+        return (TRANS[lang] && TRANS[lang][key]) || TRANS.en[key] || key;
+    }
+
     function detectKeys(obj){
         Object.keys(obj).forEach(k => {
             const lk = k.toLowerCase();
@@ -42,7 +69,7 @@
         if(!sel) return;
         sel.innerHTML = '';
         const provinces = uniqueProvinces();
-        sel.appendChild(optionEl('', 'Select a province'));
+        sel.appendChild(optionEl('', t('selectProvince')));
         provinces.forEach(p => sel.appendChild(optionEl(p,p)));
     }
 
@@ -51,7 +78,7 @@
         const citySel = document.getElementById('city-select-mun');
         if(!sel || !citySel) return;
         sel.innerHTML = '';
-        sel.appendChild(optionEl('', 'Select a province'));
+        sel.appendChild(optionEl('', t('selectProvince')));
         const provinces = uniqueProvinces();
         provinces.forEach(p => sel.appendChild(optionEl(p,p)));
         sel.addEventListener('change', function(){
@@ -65,12 +92,12 @@
         if(!citySel) return;
         citySel.innerHTML = '';
         if(!prov){
-            citySel.appendChild(optionEl('','Select a province first'));
+            citySel.appendChild(optionEl('','' + t('selectProvinceFirst')));
             return;
         }
         const cityList = citiesByProvince(prov);
         if(!cityList.length){
-            citySel.appendChild(optionEl('','No cities found'));
+            citySel.appendChild(optionEl('','' + t('noCities')));
             return;
         }
         citySel.appendChild(optionEl('','Select a city'));
