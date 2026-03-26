@@ -184,7 +184,8 @@
     function populateLeverSelector(levers){
         const sel = document.getElementById('lever-select-strategy');
         if(!sel) return;
-        sel.innerHTML = '<option value="">Select a lever...</option>';
+        const placeholder = lang === 'fr' ? 'Sélectionnez un levier politique' : 'Select a lever...';
+        sel.innerHTML = `<option value="">${placeholder}</option>`;
         levers.forEach(lever => {
             const opt = document.createElement('option');
             opt.value = lever;
