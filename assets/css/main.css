@@ -102,7 +102,7 @@ input, select, textarea {
 	}
 
 /* Map container styles (Leaflet) */
-#map {
+#map, #mapFR {
 	width: 100%;
 	height: 500px;
 	max-width: 64rem; /* matches .wrapper.style1 > .inner width */
@@ -112,7 +112,7 @@ input, select, textarea {
 }
 
 @media screen and (max-width: 736px) {
-	#map { height: 320px; }
+	#map, #mapFR { height: 320px; }
 }
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
