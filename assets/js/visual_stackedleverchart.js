@@ -1,6 +1,6 @@
 /* visual_stackedleverchart.js
    Renders three stacked-bar charts (national, provincial, municipal)
-   showing proportions (%) of "levers" in data/actions.json.
+   showing proportions (%) of "levers" in data/actions_mod.json.
 */
 (function(){
     const lang = (document.documentElement.getAttribute('lang') || 'en').toLowerCase().startsWith('fr') ? 'fr' : 'en';
@@ -83,7 +83,7 @@
             renderNational(provinces, levers);
             setupProvinceListeners(levers);
             setupMunicipalListeners(levers);
-        }).catch(err => console.error('Error loading actions.json:', err));
+        }).catch(err => console.error('Error loading actions_mod.json:', err));
     }
 
     function detectKeys(obj){
@@ -96,7 +96,7 @@
         if(!leverKey) {
             // Fallback: some datasets call them 'strategy' or similar
             Object.keys(obj).forEach(k => { if(!leverKey && k.toLowerCase().indexOf('strateg') !== -1) leverKey = k; });
-            if(!leverKey) console.warn('No lever key found in actions.json. Looking for "lever" or "strategy" in keys.');
+            if(!leverKey) console.warn('No lever key found in actions_mod.json. Looking for "lever" or "strategy" in keys.');
             else console.info('Using', leverKey, 'as lever-like key');
         }
     }

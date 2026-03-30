@@ -1,5 +1,5 @@
 /* visual_stackedstrategychart.js
-   Renders a single stacked-bar chart showing proportions (%) of "strategies" in data/actions.json.
+   Renders a single stacked-bar chart showing proportions (%) of "strategies" in data/actions_mod.json.
    Filtered by selected lever (policy lever) and displays based on current geography view.
 */
 (function(){

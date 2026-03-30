@@ -6,7 +6,6 @@ with open("data\FRdictionary.json", "r", encoding="utf-8") as f:
     dictionary = json.load(f)
 
 files = [
-    "data/actions.json",
     "data/actions_mod.json"
 ]
 

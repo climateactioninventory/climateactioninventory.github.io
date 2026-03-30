@@ -14,13 +14,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch actions sheet
-        run: |
-          RESPONSE=$(curl -f -s -L "https://script.google.com/macros/s/AKfycbyMt6mx-txafe7ZsIXCBs1omcFFNE_7X_HqSwLNT1KEy5yo0yJO-pmZD_VboRAgfkFN/exec")
-          echo "=== Actions sheet response ==="
-          echo "$RESPONSE" | head -20
-          echo "$RESPONSE" | jq '.data' > data/actions.json || echo "Failed to parse"
-
       - name: Fetch actions_mod sheet
         run: |
           RESPONSE=$(curl -f -s -L "https://script.google.com/macros/s/AKfycbw8vOIbhRNaOCvjJBZZ-nKAvWWhLyTIGRzwk9FXS4DjKSjbnZoe4FXj8EVIKD0o0kX-/exec")
@@ -44,9 +37,6 @@ jobs:
 
       - name: Validate JSON
         run: |
-          jq empty data/actions.json
-          jq empty data/actions_mod.json
-          jq empty data/FRactions.json
           jq empty data/FRactions_mod.json
           jq empty data/cities.json
 
