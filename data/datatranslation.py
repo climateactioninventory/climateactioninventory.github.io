@@ -2,7 +2,7 @@ import json
 import os
 
 # Load dictionary
-with open("data\FRdictionary.json", "r", encoding="utf-8") as f:
+with open("data/FRdictionary.json", "r", encoding="utf-8") as f:
     dictionary = json.load(f)
 
 files = [
