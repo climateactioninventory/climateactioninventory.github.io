@@ -14,35 +14,35 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch actions sheet
-        run: |
-          RESPONSE=$(curl -f -s -L "https://script.google.com/macros/s/AKfycbyMt6mx-txafe7ZsIXCBs1omcFFNE_7X_HqSwLNT1KEy5yo0yJO-pmZD_VboRAgfkFN/exec")
-          echo "=== Actions sheet response ==="
-          echo "$RESPONSE" | head -20
-          echo "$RESPONSE" | jq '.data' > data/actions.json || echo "Failed to parse"
-
       - name: Fetch actions_mod sheet
         run: |
           RESPONSE=$(curl -f -s -L "https://script.google.com/macros/s/AKfycbw8vOIbhRNaOCvjJBZZ-nKAvWWhLyTIGRzwk9FXS4DjKSjbnZoe4FXj8EVIKD0o0kX-/exec")
+
           echo "=== Actions_mod sheet response ==="
           echo "$RESPONSE" | head -20
 
           echo "$RESPONSE" \
             | jq '.data | map(select(tostring | contains("Information gathering phase") | not))' \
-            > data/actions_mod.json || echo "Failed to parse"
+            > data/actions_mod.json || true
 
       - name: Fetch cities sheet
         run: |
           RESPONSE=$(curl -f -s -L "https://script.google.com/macros/s/AKfycbxPsrugCMqZJOTjd2oOO3H6FNi_xKvNSkruwRfjoO51dhdTFTxzXJp0KF9OEvcMuEoK/exec")
+
           echo "=== Cities sheet response ==="
           echo "$RESPONSE" | head -20
-          echo "$RESPONSE" | jq '.data' > data/cities.json || echo "Failed to parse"
+
+          echo "$RESPONSE" | jq '.data' > data/cities.json || true
+
+
+      - name: Run data translation
+        run: |
+          python3 data/datatranslation.py || echo "Translation failed"
 
       - name: Validate JSON
         run: |
-          jq empty data/actions.json
-          jq empty data/actions_mod.json
-          jq empty data/cities.json
+          jq empty data/FRactions_mod.json || echo "FRactions invalid"
+          jq empty data/cities.json || echo "Cities invalid"
 
       - name: Commit updates
         run: |

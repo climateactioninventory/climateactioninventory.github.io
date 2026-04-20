@@ -1,9 +1,12 @@
 /* visual_stackedleverchart.js
    Renders three stacked-bar charts (national, provincial, municipal)
-   showing proportions (%) of "levers" in data/actions.json.
+   showing proportions (%) of "levers" in data/actions_mod.json.
 */
 (function(){
-    const DATA_FILE = './data/actions_mod.json';
+    const lang = (document.documentElement.getAttribute('lang') || 'en').toLowerCase().startsWith('fr') ? 'fr' : 'en';
+    const DEFAULT_DATA_FILE = './data/actions_mod.json';
+    const FR_DATA_FILE = './data/FRactions_mod.json';
+    const DATA_FILE = lang === 'fr' ? FR_DATA_FILE : DEFAULT_DATA_FILE;
     let actions = [];
     let leverKey = null;
     let provinceKey = null;
@@ -65,7 +68,13 @@
 
     // Init
     function init(){
-        fetch(DATA_FILE).then(r => r.json()).then(d => {
+        const resolvedDataFile = DATA_FILE;
+        fetch(resolvedDataFile).then(r => {
+            if(!r.ok && lang === 'fr') {
+                return fetch(DEFAULT_DATA_FILE);
+            }
+            return r;
+        }).then(r => r.json()).then(d => {
             actions = d;
             if(!actions.length) return console.warn('No actions in data file.');
             detectKeys(actions[0]);
@@ -74,7 +83,7 @@
             renderNational(provinces, levers);
             setupProvinceListeners(levers);
             setupMunicipalListeners(levers);
-        }).catch(err => console.error('Error loading actions.json:', err));
+        }).catch(err => console.error('Error loading actions_mod.json:', err));
     }
 
     function detectKeys(obj){
@@ -87,7 +96,7 @@
         if(!leverKey) {
             // Fallback: some datasets call them 'strategy' or similar
             Object.keys(obj).forEach(k => { if(!leverKey && k.toLowerCase().indexOf('strateg') !== -1) leverKey = k; });
-            if(!leverKey) console.warn('No lever key found in actions.json. Looking for "lever" or "strategy" in keys.');
+            if(!leverKey) console.warn('No lever key found in actions_mod.json. Looking for "lever" or "strategy" in keys.');
             else console.info('Using', leverKey, 'as lever-like key');
         }
     }
@@ -194,7 +203,7 @@
         const natCounts = countsByLevers(actions, levers);
         const provPerc = percentize(provCounts);
         const natPerc = percentize(natCounts);
-        const labels = [selectedProv || 'Selected province', 'Canada'];
+        const labels = [selectedProv || 'Province sélectionnée', 'Canada'];
         const datasets = levers.map((lever,idx) => ({
             label: lever,
             data: [ +(provPerc[lever]||0).toFixed(2), +(natPerc[lever]||0).toFixed(2) ],
@@ -228,7 +237,7 @@
         const cityPerc = percentize(cityCounts);
         const provPerc = percentize(provCounts);
         const natPerc = percentize(natCounts);
-        const labels = [city || 'Selected city', prov || 'Province', 'Canada'];
+        const labels = [city || 'Municipalité sélectionnée', prov || 'Province', 'Canada'];
         const datasets = levers.map((lever,idx) => ({
             label: lever,
             data: [ +(cityPerc[lever]||0).toFixed(2), +(provPerc[lever]||0).toFixed(2), +(natPerc[lever]||0).toFixed(2) ],

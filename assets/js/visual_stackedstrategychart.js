@@ -1,9 +1,12 @@
 /* visual_stackedstrategychart.js
-   Renders a single stacked-bar chart showing proportions (%) of "strategies" in data/actions.json.
+   Renders a single stacked-bar chart showing proportions (%) of "strategies" in data/actions_mod.json.
    Filtered by selected lever (policy lever) and displays based on current geography view.
 */
 (function(){
-    const DATA_FILE = './data/actions_mod.json';
+    const lang = (document.documentElement.getAttribute('lang') || 'en').toLowerCase().startsWith('fr') ? 'fr' : 'en';
+    const DEFAULT_DATA_FILE = './data/actions_mod.json';
+    const FR_DATA_FILE = './data/FRactions_mod.json';
+    const DATA_FILE = lang === 'fr' ? FR_DATA_FILE : DEFAULT_DATA_FILE;
     let actions = [];
     let strategyKey = null;
     let leverKey = null;
@@ -63,7 +66,13 @@
     };
     // Init
     function init(){
-        fetch(DATA_FILE).then(r => r.json()).then(d => {
+        const resolvedDataFile = DATA_FILE;
+        fetch(resolvedDataFile).then(r => {
+            if(!r.ok && lang === 'fr') {
+                return fetch(DEFAULT_DATA_FILE);
+            }
+            return r;
+        }).then(r => r.json()).then(d => {
             actions = d;
             if(!actions.length) return console.warn('No actions in data file.');
             detectKeys(actions[0]);
@@ -175,7 +184,8 @@
     function populateLeverSelector(levers){
         const sel = document.getElementById('lever-select-strategy');
         if(!sel) return;
-        sel.innerHTML = '<option value="">Select a lever...</option>';
+        const placeholder = t('selectLeverOption');
+        sel.innerHTML = `<option value="">${placeholder}</option>`;
         levers.forEach(lever => {
             const opt = document.createElement('option');
             opt.value = lever;
@@ -319,8 +329,8 @@
                 currentLever,
                 perProvincePercent,
                 provinces,
-                'Strategies by Province (National)',
-                'This stacked bar chart shows the proportional (%) use of each strategy within the selected policy lever across the provinces and territories studied.',
+                t('strategiesByProvinceTitle'),
+                t('strategiesByProvinceDesc'),
                 null
             );
         }
@@ -346,15 +356,15 @@
             
             let noDataMessage = null;
             if(Object.values(provPerc).every(v => v === 0)){
-                noDataMessage = `${selectedProv} does not use the ${currentLever} policy lever at all, according to our analysis.`;
+                noDataMessage = t('provinceNoDataMessage').replace('{province}', selectedProv).replace('{lever}', currentLever);
             }
             
             renderStrategyChart(
                 currentLever,
                 [provPerc, natPerc],
-                [selectedProv || 'Selected province', 'Canada'],
-                'Strategies — Selected province vs National',
-                'This stacked bar chart shows the proportional (%) use of each strategy within the selected policy lever in the selected province, as well as the overall use of each strategy nationally for comparison.',
+                [selectedProv || t('selectedProvinceLabel'), t('canadaLabel')],
+                t('strategiesProvincialTitle'),
+                t('strategiesProvincialDesc'),
                 noDataMessage
             );
         }
@@ -393,15 +403,15 @@
             
             let noDataMessage = null;
             if(Object.values(cityPerc).every(v => v === 0)){
-                noDataMessage = `${selectedCity} does not use ${currentLever} at all`;
+                noDataMessage = t('cityNoDataMessage').replace('{city}', selectedCity).replace('{lever}', currentLever);
             }
             
             renderStrategyChart(
                 currentLever,
                 [cityPerc, provPerc, natPerc],
-                [selectedCity || 'Selected city', selectedProv || 'Province', 'Canada'],
-                'Strategies — City, Province, National',
-                'This stacked bar chart shows the proportional (%) use of each strategy within the selected policy lever in the selected municipality as well as the overall use of each strategy provincially and nationally for comparison.',
+                [selectedCity || t('selectedCityLabel'), selectedProv || t('provinceLabel'), t('canadaLabel')],
+                t('strategiesMunicipalTitle'),
+                t('strategiesMunicipalDesc'),
                 noDataMessage
             );
         }

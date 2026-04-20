@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 	<head>
 		<title>Climate Action Inventory</title>
 		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
@@ -13,7 +13,7 @@
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
-			<div id="wrapper" class="divided">
+			<div id="wrapper" class="divided">		
 				<!-- Opener -->
 					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
@@ -21,12 +21,13 @@
 							<p class="major">
 								Explore our dataset of municipal climate actions in the buildings sector across Canada to gain a better understanding of how municipalities are changing their built environment to reach net-zero.
 							</p>
-							<ul class="actions stacked">
+							<ul class="actions fit">
 								<li><a href="#about-cgll" class="button big wide smooth-scroll-middle">Get Started</a></li>
+								<li><a href="https://climateactioninventory.github.io/indexFR.html" class="button big wide smooth-scroll-middle">français</a></li>
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/jackie-hutchinson-JJYzJXbwB20-unsplash.jpg" alt="" />
+							<img src="images/jackie-hutchinson-JJYzJXbwB20-unsplash.jpg" alt="" />		
 						</div>
 					</section>
 
@@ -52,9 +53,7 @@
                                         <dl>
 											This dataset comprises data extracted from 104 Canadian municipal climate action plans, representing 104 communities across 10 provinces and 2 territories. The municipalities in this dataset are shown in the map of Canada below. These plans are usually organized around major emissions-producing activity sectors, such as transportation, waste, energy, and buildings. Given that buildings account for approximately 40% of global energy consumption and contribute significantly to greenhouse gas emissions, they are a critical area of municipal climate action (Zhang et al., 2023; Jadidi et al., 2026). This dataset, therefore, includes only actions that municipalities included in the buildings section of their climate action plans, specifically relating to emissions mitigation. While adaptation actions are also critical to climate response, they were not the focus of this study. The dataset may be expanded to include climate actions for other activity sectors and/or adaptation in the future.
 											<br><br>
-											We reviewed all 104 plans and identified 1283 building-related mitigation actions. Then, using the <a href="https://www.google.com/url?q=https://carbonneutralcities.org/wp-content/uploads/2018/04/CNCA-Framework-for-Long-Term-Deep-Carbon-Reduction-Planning.pdf&sa=D&source=docs&ust=1773002068069305&usg=AOvVaw0RMxLf6ADRu4PGWKmDu1C8">Carbon Neutral Cities Alliance (CNCA) Framework for Long-Term Deep Carbon Reduction Planning</a>, we grouped each action into one of 14 strategies and subsequently into one of four policy levers. The dataset with the coded strategies and levers is available to download <a href="https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/1031r1hFR40n5zoA6nAywS8DR9xaUrEUCGwLlFA_T9uQ/edit?gid%3D1773413968%23gid%3D1773413968&sa=D&source=docs&ust=1773002068050366&usg=AOvVaw04WZ8QUib9abcOWc8Dlhea">here</a>. For more on how this dataset was created, visit our <a href="https://docs.google.com/document/d/e/2PACX-1vSEpT1zdKdVC3LOwEzslFqKiobYuImwZq3RS9cxD57tQWO6J_W4mJA4BAary2YLxP-kdicqVJdpW2wp/pub">methodology section</a>.	
-											<br><br>
-											The interactive map below shows the geographical location of the municipalities whose plans were included in this dataset. By clicking on the individual pins, you can see the municipalities' population and access their climate action plans. You can also zoom in on the map by scrolling your mouse or by using two fingers on your track pad.				
+											We reviewed all 104 plans and identified 1283 building-related mitigation actions. Then, using the <a href="https://www.google.com/url?q=https://carbonneutralcities.org/wp-content/uploads/2018/04/CNCA-Framework-for-Long-Term-Deep-Carbon-Reduction-Planning.pdf&sa=D&source=docs&ust=1773002068069305&usg=AOvVaw0RMxLf6ADRu4PGWKmDu1C8">Carbon Neutral Cities Alliance (CNCA) Framework for Long-Term Deep Carbon Reduction Planning</a>, we grouped each action into one of 14 strategies and subsequently into one of four policy levers. The dataset with the coded strategies and levers is available to download <a href="https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/1031r1hFR40n5zoA6nAywS8DR9xaUrEUCGwLlFA_T9uQ/edit?gid%3D1773413968%23gid%3D1773413968&sa=D&source=docs&ust=1773002068050366&usg=AOvVaw04WZ8QUib9abcOWc8Dlhea">here</a>. For more on how this dataset was created, visit our <a href="https://docs.google.com/document/d/e/2PACX-1vSEpT1zdKdVC3LOwEzslFqKiobYuImwZq3RS9cxD57tQWO6J_W4mJA4BAary2YLxP-kdicqVJdpW2wp/pub">methodology section</a>.					
 										</dl>
 										<div> 
                                             <div id="map"></div>
@@ -150,7 +149,7 @@
 					<div class="index align-left">
 					<!-- Province selector (populated from data/cities.json) -->
 					<div style="margin-bottom:1rem;">
-						<label for="province-select-prov" style="font-weight:600; display:block; margin-bottom:0.25rem;">Select a province:</label>
+						<label for="province-select-prov" style="font-weight:600; display:block; margin-bottom:0.25rem;" data-i18n="selectProvince">Select a province:</label>
 						<select id="province-select-prov" class="fit" style="max-width:18rem; padding:0.5rem;">
 							<option value="">Loading…</option>
 						</select>
@@ -188,7 +187,7 @@
 							<select id="province-select-mun" class="fit" style="max-width:18rem; padding:0.5rem;"></select>
 						</div>
 						<div>
-							<label for="city-select-mun" style="font-weight:600; display:block; margin-bottom:0.25rem;">City</label>
+							<label for="city-select-mun" style="font-weight:600; display:block; margin-bottom:0.25rem;" data-i18n="selectCity">Municipality</label>
 							<select id="city-select-mun" class="fit" style="max-width:22rem; padding:0.5rem;"></select>
 						</div>
 					
@@ -201,7 +200,7 @@
 					<!-- Municipal stacked levers chart (city, province, national) -->
 					<div id="municipal-content" style="display:none;">
 						<header>
-							<h3>Policy levers — City, Province, National</h3>
+							<h3>Policy levers — Municipality, Province, National</h3>
 							<p style="font-size:90%">This stacked bar chart shows the proportional (%) use of each policy lever in the selected municipality, as well as the overall use of each lever provincially and nationally for comparison.</p>
 						</header>
 						<div class="chart-wrapper" style="margin-top:1rem;">
@@ -220,7 +219,7 @@
 
 					<!-- Lever selector for strategies -->
 					<div style="margin-bottom:1rem;">
-						<label for="lever-select-strategy" style="font-weight:600; display:block; margin-bottom:0.25rem;">Select a policy lever:</label>
+						<label for="lever-select-strategy" style="font-weight:600; display:block; margin-bottom:0.25rem;" data-i18n="selectLever">Select a policy lever:</label>
 						<select id="lever-select-strategy" class="fit" style="max-width:18rem; padding:0.5rem;">
 							<option value="">Loading…</option>
 						</select>
@@ -228,7 +227,7 @@
 
 					<!-- Strategy charts placeholder -->
 					<div id="strategy-placeholder">
-						<p style="color:#999;">Select a policy lever to view the distribution of strategies.</p>
+						<p style="color:#999;" data-i18n="selectLeverToViewStrategies">Select a policy lever to view the distribution of strategies.</p>
 					</div>
 
 					<!-- Single strategy chart display -->
@@ -292,6 +291,7 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/i18n.js"></script>
 			<script src="assets/js/main.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 

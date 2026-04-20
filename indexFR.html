@@ -1,0 +1,309 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<title>Inventaire des mesures climatiques</title>
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- Leaflet CSS -->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+				<!-- Opener -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h2>Inventaire des mesures climatiques municipales canadiennes</h2>
+							<p class="major">
+								Explorez notre ensemble de données sur les mesures climatiques municipales dans le secteur du bâtiment à travers le Canada pour mieux comprendre comment les municipalités modifient leur cadre bâti afin d'atteindre la carboneutralité.
+							</p>
+							<ul class="actions fit">
+								<li><a href="#about-cgll" class="button big wide smooth-scroll-middle">Débuter</a></li>
+								<li><a href="https://climateactioninventory.github.io" class="button big wide smooth-scroll-middle">english</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/jackie-hutchinson-JJYzJXbwB20-unsplash.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- CGLL details and stuff -->
+					<section class="wrapper style1 align-center" id="about-cgll">
+						<div class="inner">
+							<div class="index align-left">
+								<section>
+									<div class="content">
+										<dl>
+											<h3> <b>À propos du LLGC</b></h3>
+										</dl>
+										<p>
+											Le  Living lab en gouvernance du carbone (LLGC) est un projet financé par Volt-Age et basé à l'Université Concordia. Il étudie les initiatives locales de décarbonation conçues  à la lutte pour le climat dans les municipalités, dans le but de soutenir l'innovation et de tirer des leçons des meilleures pratiques. <br><br>
+											Le LLGC rassemble des chercheurs.es et des praticiens.nes spécialisés.es dans la gouvernance et les politiques climatiques, l'électrification, les transitions justes, les systèmes énergétiques urbains et la transformation urbaine. Cet ensemble de données a été développé afin de cartographier le paysage des interventions locales existantes en matière de décarbonation dans le secteur du bâtiment, tant celles qui sont prévues que celles qui sont en cours, dans les municipalités du Canada. Pour plus d'informations sur le LLGC, visitez notre <a href="https://www.concordia.ca/fr/recherche/volt-age/initiatives/vers-un-laboratoire-vivant-de-la-gouvernance-du-carbone.html">site web</a>.
+										</p>
+									</div>
+								</section>
+								<section>
+								<div id="about-the-dataset" class="content">
+                                        <h3><b>À propos de l’ensemble de données</b></h3>
+                                        <dl>
+											Cet ensemble de données comprend des données extraites de 104 plans d'action climatiques municipaux canadiens, représentant 104 communautés réparties dans 10 provinces et 2 territoires. Les municipalités figurant dans cet ensemble de données sont indiquées sur la carte du Canada ci-dessous. Ces plans sont généralement organisés autour des principaux secteurs d'activité générateurs d'émissions, tels que le transport, les déchets, l'énergie et les bâtiments. Étant donné que les bâtiments représentent environ 40 % de la consommation mondiale d'énergie et contribuent de manière significative aux émissions de gaz à effet de serre, ils constituent un domaine essentiel de l'action climatique municipale (Zhang et al., 2023 ; Jadidi et al., 2026). Cet ensemble de données comprend donc seulement les mesures que les municipalités ont inclus dans la section « bâtiments » de leurs plans d'actions climatiques, en particulier celles liées à l'atténuation des émissions. Bien que les mesures d'adaptation soient également essentielles pour lutter contre le changement climatique, elles n'étaient pas au centre de cette étude. L'ensemble de données pourrait être élargi à l'avenir pour inclure les mesures climatiques prises dans d'autres secteurs d'activité et/ou les mesures d'adaptation.
+											<br><br>
+											Nous avons examiné les 104 plans et identifié 1 283 mesures d'atténuation liées aux bâtiments. Ensuite, à l'aide <a href="https://carbonneutralcities.org/wp-content/uploads/2018/04/CNCA-Framework-for-Long-Term-Deep-Carbon-Reduction-Planning.pdf">du cadre de la Carbon Neutral Cities Alliance (CNCA) pour la planification à long terme de la réduction profonde des émissions de carbone</a>, nous avons regroupé chaque mesure dans l'une des 14 stratégies, puis dans l'un des quatre leviers politiques. L'ensemble de données contenant les stratégies et les leviers codés peut être téléchargé <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8X1UXNBKW__5HLpbi4qkLXe2rz0IHnOZsdKaunAc9a9OhPrzBioX9kUwxPBBCIbop9YNXTJJ6M_rO/pub?output=xlsx"> ici</a>. Pour en savoir plus sur la création de cette ensemble de données, consultez notre section <a href="https://docs.google.com/document/d/e/2PACX-1vQTW6kqV9x8Dio4OtMBEwz4jwgIFp-__RJY4i9FZzV-irCqJjNI4kWWo7K4-c5vR23vzKbimEmOMMey/pub">méthodologie</a>.
+										</dl>
+										<div> 
+                                            <div id="mapFR"></div>
+                                    	</div>
+                                        <h4>
+											Des exemples et des définitions pour chaque levier politique basé sur le cadre du CNCA sont fournis ici :
+										</h4>
+                                        <table>
+                                            <tr>
+                                                <th>Levier Politique</th>
+                                                <th>Définition</th>
+                                                <th>Exemple de stratégie</th>
+                                                <th>Exemple d’action</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Encourager les actions volontaires</td>
+                                                <td>Fournir des informations, des défis, des opportunités d'apprentissage, une assistance technique, des exemples et d'autres formes de soutien afin d'encourager les gens à changer leurs comportements.</td>
+                                                <td>Encourager l'amélioration de la performance énergétique des bâtiments existants.</td>
+                                                <td>Promouvoir les « toitures fraîches » — revêtement blanc des toits afin de réduire la consommation énergétique des bâtiments.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Envoi de signaux de prix</td>
+                                                <td>Améliorer les impacts économiques, tels que les coûts et le retour sur investissement, grâce à des subventions et des incitations visant à encourager de nouveaux comportements et investissements.</td>
+                                                <td>Soutenir/récompenser la performance.</td>
+                                                <td>Accorder des allègements réglementaires et zonaux aux projets répondant à des normes élevées certifiables (par ex, LEED).</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Réaliser des investissements publics</td>
+                                                <td>Investir des fonds publics, à court et à long terme, afin de créer les conditions propices à l'adoption de nouveaux comportements par les autres, tout en modifiant considérablement l'empreinte carbone du gouvernement lui-même.</td>
+                                                <td>Montrer l'exemple : investir dans l'amélioration de l'efficacité énergétique ou la rénovation des bâtiments publics.</td>
+                                                <td>Réaliser une rénovation en profondeur et/ou l'installation d'un système d'approvisionnement en énergie renouvelable sur site.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Exiger le changement</td>
+                                                <td>Exiger un certain comportement et faire respecter les exigences pour une conformité généralisée.</td>
+                                                <td>Exiger l'amélioration des performances des bâtiments existants</td>
+                                                <td>Exiger des bâtiments ciblés (par exemple, les bâtiments commerciaux dont la superficie est supérieure à une certaine taille) qu'ils évaluent (mesurent et divulguent) leur performance énergétique, et/ou qu'ils réalisent des audits énergétiques, et/ou qu'ils installent des sous-compteurs d'énergie pour les grands locataires.</td>
+                                            </tr>
+                                        </table>
+										<p style="text-align: right;">(Carbon Neutral Cities Alliance, 2015)</p>
+									
+									<h3>À propos de la visualisation des données</h3>
+									<p>
+										Les diagrammes interactifs ci-dessous fournissent un aperçu des leviers politiques et des stratégies utilisés aux niveaux national, provincial et municipal.
+										<br><br>
+										Pour commencer, sélectionnez une vue (nationale, provinciale ou municipale) sous <i>Visualiser les données</i>. Pour les vues provinciales et municipales, choisissez la province concernée et, le cas échéant, la municipalité pour afficher les graphiques.
+										<br><br>
+										Vous pouvez également explorer les stratégies spécifiques associées à chaque levier politique. Sélectionnez un levier politique dans le menu déroulant pour afficher la répartition des stratégies au sein de la catégorie à l'échelle d'analyse sélectionnée (c'est-à-dire nationale, provinciale, municipale). 
+									</p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Choosing a dataset view -->
+			<section class="wrapper style1 align-center" id="data-view-select">
+					<div class="inner">
+						<h3><b>Visualiser les données</b></h3>
+						<ul class="actions fit">
+							<li><a id="btn-national" href="#national_view" class="button fit" role="button" aria-pressed="false">Vue nationale</a></li>
+							<li><a id="btn-provincial" href="#provincial_view" class="button fit" role="button" aria-pressed="false">Vue provinciale</a></li>
+							<li><a id="btn-municipal" href="#municipal_view" class="button fit" role="button" aria-pressed="false">Vue municipale</a></li>
+
+						</ul>
+					</div>
+				</section>
+
+				<!-- NATIONAL VIEW -->
+				<section class="wrapper style1 align-center" id="national_view">
+					<div class="inner">
+						<div class="index align-left">
+							<section> <!-- levers test -->
+								<header>
+									<h3>Leviers politiques par province (national)</h3>
+									<p style="font-size:90%">Ce diagramme montre l'utilisation proportionnelle (%) de chaque levier politique dans les provinces et territoires étudiés. </p>
+								</header>
+								<div class="content">
+									<div>
+										<div class="chart-wrapper">
+											<canvas id="nationalleverschart"></canvas>
+										</div>
+										<ul id="legend-national"></ul>
+									</div>
+								</div>
+							</section>
+				</div> 
+			</div> 
+		</section> 
+
+		<!-- PROVINCIAL VIEW (hidden by default) -->
+		<section class="wrapper style1 align-center" id="provincial_view" style="display:none;">
+				<div class="inner">
+					<div class="index align-left">
+					<!-- Province selector (populated from data/cities.json) -->
+					<div style="margin-bottom:1rem;">
+						<label for="province-select-prov" style="font-weight:600; display:block; margin-bottom:0.25rem;" data-i18n="selectProvince">Sélectionnez une province:</label>
+						<select id="province-select-prov" class="fit" style="max-width:18rem; padding:0.5rem;">
+							<option value="">En chargement...</option>
+						</select>
+					</div>
+
+					<!-- Provincial stacked levers chart placeholder -->
+					<div id="provincial-placeholder">
+						<p style="color:#999;">Sélectionnez un levier politique pour afficher la répartition des leviers politiques</p>
+					</div>
+
+					<!-- Provincial stacked levers chart (selected province vs national) -->
+					<div id="provincial-content" style="display:none;">
+						<header>
+							<h3>Leviers politiques —  Province sélectionnée vs National</h3>
+							<p style="font-size:90%">Ce diagramme montre l'utilisation proportionnelle (%) de chaque levier politique dans la province sélectionnée, ainsi que l'utilisation globale de chaque levier à l'échelle nationale à des fins de comparaison.</p>
+						</header>
+						<div class="chart-wrapper" style="margin-top:1rem;">
+							<canvas id="provincialleverschart"></canvas>
+						</div>
+						<ul id="legend-provincial"></ul>
+					</div>
+					</div> 
+				</div> 
+			</section> 
+
+		<!-- MUNICIPAL VIEW (hidden by default) -->
+		<section class="wrapper style1 align-center" id="municipal_view" style="display:none;">
+				<div class="inner">
+					<div class="index align-left">
+						
+					<!-- Province + City selectors (cities.json) -->
+					<div style="margin-bottom:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
+						<div>
+							<label for="province-select-mun" style="font-weight:600; display:block; margin-bottom:0.25rem;">Province</label>
+							<select id="province-select-mun" class="fit" style="max-width:18rem; padding:0.5rem;"></select>
+						</div>
+						<div>
+							<label for="city-select-mun" style="font-weight:600; display:block; margin-bottom:0.25rem;" data-i18n="selectCity">Municipalité</label>
+							<select id="city-select-mun" class="fit" style="max-width:22rem; padding:0.5rem;"></select>
+						</div>
+					
+					<!-- Municipal CAP table: appears only when a province is selected --> <!--
+						<div id="municipal-cap-table-container" style="margin-bottom:1rem;">
+							<div id="municipal-cap-table" style="display:none;"></div>
+						</div>-->
+					</div>
+					
+					<!-- Municipal stacked levers chart (city, province, national) -->
+					<div id="municipal-content" style="display:none;">
+						<header>
+							<h3>Leviers politique - Municipalité, Province, National</h3>
+							<p style="font-size:90%">Ce diagramme montre l'utilisation proportionnelle (%) de chaque stratégie dans le cadre du levier politique sélectionné dans la municipalité choisie, ainsi que l'utilisation globale de chaque stratégie à l'échelle provinciale et nationale à des fins de comparaison.</p>
+						</header>
+						<div class="chart-wrapper" style="margin-top:1rem;">
+							<canvas id="municipalleverschart"></canvas>
+						</div>
+						<ul id="legend-municipal"></ul>
+					</div>
+				</div> 
+				</div> 
+			</section> 
+
+		<!-- STRATEGY VIEW BY LEVER -->
+		<section class="wrapper style1 align-center" id="strategy_view" style="display:none;">
+				<div class="inner">
+					<div class="index align-left">
+
+					<!-- Lever selector for strategies -->
+					<div style="margin-bottom:1rem;">
+						<label for="lever-select-strategy" style="font-weight:600; display:block; margin-bottom:0.25rem;" data-i18n="selectLever">Sélectionnez un levier politique:</label>
+						<select id="lever-select-strategy" class="fit" style="max-width:18rem; padding:0.5rem;">
+							<option value="">En chargement...</option>
+						</select>
+					</div>
+
+					<!-- Strategy charts placeholder -->
+					<div id="strategy-placeholder">
+						<p style="color:#999;" data-i18n="selectLeverToViewStrategies">Sélectionnez un levier politique pour afficher la répartition des stratégies.</p>
+					</div>
+
+					<!-- Single strategy chart display -->
+					<div id="strategy-content" style="display:none;">
+						<header>
+							<h3 id="strategy-chart-title">stratégies</h3>
+							<p id="strategy-chart-desc" style="font-size:90%"></p>
+						</header>
+
+						<div class="chart-wrapper" style="margin-top:1rem;">
+							<canvas id="strategychart"></canvas>
+							<div id="strategy-message" style="display:none;"></div>
+						</div>
+						<ul id="chart-legend"></ul>
+					</div>
+					</div> 
+				</div> 
+		</section>
+
+				<!-- Footer -->
+				<footer class="wrapper style1 align-center" id="acknowledgements">
+					<div class="inner">
+						<div class=" index align-left">
+							<section>
+								<div class="content">
+									<h3><b>Auteurs.es et remerciements</b></h3>
+									<h4><b>Auteurs.res</b></h4>
+									<ul>
+										<li>Dre Adriane MacDonald (Université Concordia)</li>
+										<li>Dr Hossein Jadidi (Université Concordia)</li>
+										<li>Juliette Champoux-Pellegrin (Université Concordia)</li>
+										<li>Isabel Drummond (Université Concordia)</li>
+										<li>Tessa Hansen (Université Concordia)</li>
+										<li>Dre Jennifer Garard (Volt-Age, Université Concordia)</li>
+										<li>Nilufar Sabet-Kassouf (FutureEarth/Durabilité à l’ère numérique)</li>
+										<li>Dre Ursula Eicker (Université Concordia)</li>
+										<li>Dr Renato Lago Pereira Chaves (Université Laval)</li>
+									</ul>
+									<h4><b>Remerciements</b></h4>			
+									<p>
+										Les auteurs.res tiennent à remercier les autres membres du LLGC pour leur rôle consultatif dans la conception du processus de collecte des données et de l'ensemble de données : Dre Ayse Turak (Université Concordia) et Dre Aryana Soliz (Université du Tennessee, Knoxville). Nous tenons également à remercier notre partenaire chez Future Earth/Durabilité à l’ère numérique, Rachelle Fox, pour son aide dans le développement de cette page web et sa contribution à la visualisation des données.
+										<br><br>
+										Enfin, nous tenons à remercier nos bailleurs de fonds. Cette recherche a été réalisée en partie grâce au financement du Fonds d'excellence en recherche Apogée Canada, octroyé dans le cadre de l'initiative Volt-Age de l'Université Concordia et du programme des Chaires de recherche du Canada.
+									</p>
+									<h4><b>Comment citer cet ensemble de données : </b></h4>
+									<p>
+										MacDonald, A., Jadidi, H., Champoux-Pellegrin, J., Drummond, I., Hansen, T., Garard, J. Sabet-Kassouf, N., Eicker, U., Chaves, R. L. P. (2026). Canadian Municipal Climate Action Inventory. Concordia University. http://climateactioninventory.github.io/
+										<br><br>
+										Pour toute question concernant l'ensemble de données, veuillez contacter <a href="mailto:adriane.macdonald@concordia.ca">Dre Adriane Macdonald</a>.
+									</p>
+									<img src="images/FR_Partner_logos.png" class="partner-logos">
+								</div>
+							</section>							
+						</div>
+					</div>
+				</footer>
+			</div> 
+		<!-- Scripts -->						
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/i18n.js"></script>
+			<script src="assets/js/main.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+			<!-- Leaflet JS and map initializer -->
+			<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+			<script src="assets/js/mapFR.js"></script>
+
+			<!-- View toggler moved to external file -->
+			<script src="assets/js/view-toggler.js"></script>
+			<script src="assets/js/cities-dropdowns.js"></script>
+			<script src="assets/js/visual_captable.js"></script>
+            <script src="assets/js/visual_stackedleverchart.js"></script>
+            <script src="assets/js/visual_stackedstrategychart.js"></script>
+	</body>
+</html>
