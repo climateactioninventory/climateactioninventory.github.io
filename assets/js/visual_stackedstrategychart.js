@@ -65,19 +65,23 @@
         }
     };
     // Init
-    function init(){
-        const resolvedDataFile = DATA_FILE;
-        fetch(resolvedDataFile).then(r => {
-            if(!r.ok && lang === 'fr') {
-                return fetch(DEFAULT_DATA_FILE);
-            }
-            return r;
-        }).then(r => r.json()).then(d => {
-            actions = d;
-            if(!actions.length) return console.warn('No actions in data file.');
-            detectKeys(actions[0]);
-            const levers = allLevers(actions);
-            
+function init(){
+    const resolvedDataFile = DATA_FILE;
+    fetch(resolvedDataFile, {
+        cache: 'no-store'
+    }).then(r => {
+        if(!r.ok && lang === 'fr') {
+            return fetch(DEFAULT_DATA_FILE, {
+                cache: 'no-store'
+            });
+        }
+        return r;
+    }).then(r => r.json()).then(d => {
+        actions = d;
+        if(!actions.length) return console.warn('No actions in data file.');
+        detectKeys(actions[0]);
+        const levers = allLevers(actions);
+        
             // Populate lever selector
             populateLeverSelector(levers);
             
@@ -86,9 +90,9 @@
             
             // Setup listeners for geography changes
             setupGeographyListeners();
-            
-        }).catch(err => console.error('Error loading actions_mod.json:', err));
-    }
+  
+    }).catch(err => console.error('Error loading actions_mod.json:', err));
+}
 
     function detectKeys(obj){
         Object.keys(obj).forEach(k => {
@@ -256,13 +260,16 @@
                 labels: labels,
                 datasets: datasets
             },
+            plugins: [htmlLegendPlugin],
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
-                plugins: { 
-                    legend: { 
-                        display: true,
-                        position: 'bottom'
+                plugins: {
+                    htmlLegend: {
+                        containerID: 'chart-legend'
+                    },
+                    legend: {
+                        display: false
                     },
                     tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': ' + ctx.parsed.y + '%' } }
                 },
