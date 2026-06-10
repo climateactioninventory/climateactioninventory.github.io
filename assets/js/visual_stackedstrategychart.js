@@ -81,7 +81,7 @@ function init(){
         if(!actions.length) return console.warn('No actions in data file.');
         detectKeys(actions[0]);
         const levers = allLevers(actions);
-        
+
             // Populate lever selector
             populateLeverSelector(levers);
             
@@ -260,16 +260,13 @@ function init(){
                 labels: labels,
                 datasets: datasets
             },
-            plugins: [htmlLegendPlugin],
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
                 plugins: {
-                    htmlLegend: {
-                        containerID: 'chart-legend'
-                    },
                     legend: {
-                        display: false
+                        display: true,
+                        position: 'bottom',
                     },
                     tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': ' + ctx.parsed.y + '%' } }
                 },
